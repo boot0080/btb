@@ -4,7 +4,13 @@
     box-sizing: inherit;
 }
 
-html {font-size: 1em; padding: 10rem 25%;}
+html {font-size: 1em; padding: 10rem 5%;}
+
+@media only screen and (min-width: 60em) {
+    
+    html {font-size: 1em; padding: 10rem 25%;}
+
+}
 
 body {
     background-color: white;

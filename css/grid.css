@@ -33,11 +33,6 @@
   word-spacing: -0.43em;
 }
 
-.gutter {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -1430,3 +1425,21 @@
   -webkit-align-self: center;
   align-self: center;
 }
+
+@media only screen and (min-width: 38em) {
+    
+    .gutter-1 {
+        padding-right: 1rem;
+    }
+    
+    .gutter-2 {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .gutter-3 {
+        padding-left: 1rem;
+    }
+    
+}
+
