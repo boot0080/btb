@@ -1,0 +1,238 @@
+/* Navigation Styles */
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+    z-index: 9000;
+	display: block;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;	
+	left: 0;
+	background: grey url('../images/nav-icon.svg') no-repeat center center;
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active{
+	background-color: #ccc;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 8000;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.nav-list li {
+    position: relative;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    min-width: 10rem;
+}
+
+.nav-list li:first-child {
+    background-color: white;
+    border-top: none;
+}
+
+.nav-list i {
+    position: absolute;
+    height: 2.75rem;
+    width: 3.2rem;
+    padding-top: 3px;
+    border-left: 2px solid white;
+    right: -9px;
+    top: 0;
+    font-size: 1.5rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.nav-list a, 
+.nav-list a:link,
+.nav-list a:visited{
+    width: 100%;
+    padding: 0.75rem 0 0.75rem 8px;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Toggle Nav*/
+
+.nav-top {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 200ms linear; 
+}
+
+.nav-top[data-state="expanded"] {
+    opacity: 1;
+    max-height: 100rem;
+    overflow: auto;
+}
+
+.logo-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 5rem;
+}
+	
+@media only screen and (min-width: 45em) {
+	
+    .nav-btn,
+    .nav-btn:link,
+    .nav-btn:visited{
+        display: none;
+    }
+    
+    .nav-top{
+        opacity: 1;
+        max-height: 100rem;
+    }
+    
+    header {
+        width: 10rem;
+        height: 100%;
+        background-color: transparent;
+    }
+    
+    .fakewrap {
+        position: absolute;
+        height: 100%;
+        width: 3rem;
+        left: 0;
+        background-color: #1a1a17;
+        z-index: 1000;
+    }
+    
+    .nav-list li {
+        background-color: transparent;
+        border-top: 2px solid #fff;
+        width: 3rem;
+    }
+    
+    .nav-list li:nth-child(1) {
+        margin-top: -5px;
+        background-color: transparent;
+        border-top: 2px solid #fff;
+        width: 3rem;
+    }
+    
+    .nav-list a, 
+    .nav-list a:link,
+    .nav-list a:visited{
+        background-color: #1a1a17;
+        -webkit-transform: translateX(-7rem);
+        -webkit-transition: all 300ms linear;
+    }
+    
+    .nav-list a:active, 
+    .nav-list a:hover {
+        -webkit-transform: translateX(0rem); 
+    }
+    
+}
+
+.socialmedia {
+    position: fixed;
+    top: 0;
+    left: 40px;
+    z-index: 9000;
+    list-style-type: none;
+}
+
+.socialmedia li {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.socialmedia li i {
+    font-size: 150%;
+    color: black;
+}
+
+@media only screen and (min-width: 45em) {
+    
+    .socialmedia {
+        left: 80px;
+    }
+    
+}
+
+.tab {
+    position: fixed;
+    height: 10.78rem;
+    -webkit-transform: translateY(-8rem);
+}
+
+.tab-content {
+    background-color: #e6e6e6;
+    height: 8rem;
+    width: 100%;
+}
+
+.tab-btn {
+    z-index: 9000;
+    position: absolute;
+    padding: 10px;
+    top:8rem;
+    background-color: grey;
+}
+
+.donate > .tab-btn {
+    right: 100px;
+}
+
+.volunteer > .tab-btn {
+    right: 0px;
+}
+
+.tab-btn:hover .tab {
+    -webkit-transform: translateY(0rem);
+}
+
+@media only screen and (min-width: 35em) {
+
+    .donate > .tab-btn {
+        right: 200px;
+    }
+
+    .volunteer > .tab-btn {
+        right:  90px;
+    }
+    
+}
+
+@media only screen and (min-width: 60em) {
+
+    .donate > .tab-btn {
+        right: 300px;
+    }
+
+    .volunteer > .tab-btn {
+        right: 190px;
+    }
+    
+}
