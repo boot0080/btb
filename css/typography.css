@@ -11,14 +11,6 @@ body, html {
     font-size: 1em; 
 }
 
-/*html {font-size: 1em; padding: 10rem 5%;}
-
-@media only screen and (min-width: 60em) {
-    
-    html {font-size: 1em; padding: 10rem 25%;}
-
-}*/
-
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
@@ -35,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
     line-height: 1.2;
     font-family: 'english', serif;
+    text-align: center;
 }
 
 h1 {
@@ -66,4 +59,8 @@ ul {
 
 .roundit {
     border-radius: 450px;
+}
+
+.no-margin {
+    margin-top: 0;
 }
