@@ -39,7 +39,7 @@ main {padding: 10rem 5%;}
 	overflow: hidden;
 }
 
-/* Nav */
+/* Tab Nav */
 .tabs nav {
 	text-align: center;
 }
@@ -100,7 +100,6 @@ main {padding: 10rem 5%;}
 	color: #47a3da;
 }
 
-/* Icons */
 .tabs nav a:before {
 	display: inline-block;
 	vertical-align: middle;
@@ -134,7 +133,7 @@ main {padding: 10rem 5%;}
 	content: "\e604";
 }
 
-/* Content */
+/* Tab Content */
 .content section {
 	display: none;
 	margin: 0 auto;
@@ -150,7 +149,7 @@ main {padding: 10rem 5%;}
 	clear: both;
 }
 
-/* Fallback example */
+/* Tab Fallback  */
 .no-js .content section {
 	display: block;
 	padding-bottom: 2em;
@@ -161,7 +160,7 @@ main {padding: 10rem 5%;}
 	display: block;
 }
 
-/* Example media queries */
+/* Tab media queries */
 
 @media screen and (max-width: 52.375em) {
 	.tabs nav a span {
