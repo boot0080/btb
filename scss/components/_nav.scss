@@ -170,13 +170,14 @@ header {
 
 .socialmedia li i {
     font-size: 150%;
-    color: black;
+    color: $hovercolor;
 }
 
 @media only screen and (min-width: 45em) {
     
     .socialmedia {
-        left: 80px;
+        left: 75px;
+        top: 10px;
     }
     
 }
