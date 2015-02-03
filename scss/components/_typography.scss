@@ -144,3 +144,8 @@ main p a {
     color: $orange;
     border-bottom: 1px solid $orange;
 }
+
+.pagination .linkreset {
+    @include linkreset($orange);
+    margin: 0 5px;
+}

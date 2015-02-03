@@ -53,6 +53,7 @@ main hr {
 }
 
 .subscribe input {
+    background-color: transparent;
     display: block;
     width: 25rem;
     height: 2.5rem;
@@ -61,17 +62,15 @@ main hr {
     padding: 10px;
 }
 
-::-webkit-input-placeholder {
-   color: $dark;
+.news .subscribe input {
+    @include button($white, 2rem auto 1rem);
 }
-:-moz-placeholder { /* Firefox 18- */
-   color: $dark;  
-}
-::-moz-placeholder {  /* Firefox 19+ */
-   color: $dark;  
-}
-:-ms-input-placeholder {  
-   color: $dark;  
+
+.subscribe input{
+    @include placeholder($white) {
+        color: $white;
+        opacity: 1;
+    }
 }
 
 .hiddencap {
@@ -99,4 +98,18 @@ main hr {
         top: 0;
         opacity: 1;
     }
+}
+
+.blogpost .top {
+    width: 100%;
+    border-bottom: 1px solid $dark;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-top: 2rem;
+}
+
+.blogpost a {
+    @include linkreset($orange);
+    display: inline-block;
+    margin-top: 0.75rem;
 }
