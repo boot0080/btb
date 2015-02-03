@@ -41,6 +41,8 @@
     }
     .arrow {
         color: $white;
+        -webkit-animation: bounce 1250ms ease-in;
+        -webkit-animation-delay: 1s;
     }
     .arrow:hover {
         -webkit-animation: bounce 1250ms ease;
