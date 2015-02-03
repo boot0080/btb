@@ -22,6 +22,10 @@ body {
     box-sizing: border-box;
 }
 
+.orange {
+    color: $orange;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 1.414em 0 0.5em;
     font-weight: inherit;
