@@ -78,6 +78,7 @@ main hr {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+    margin-top: 3rem;
 }
 
 /* Tab Nav */
@@ -93,7 +94,7 @@ main hr {
 }
 
 .tabs nav ul li {
-	border: 1px solid #becbd2;
+	border: 2px solid $dark;
 	border-bottom: none;
 	margin: 0 0.25em;
 	display: block;
@@ -102,8 +103,7 @@ main hr {
 }
 
 .tabs nav li.tab-current {
-	border: 1px solid #47a3da;
-	box-shadow: inset 0 2px #47a3da;
+	border: 2px solid $dark;
 	border-bottom: none;
 	z-index: 100;
 }
@@ -112,11 +112,11 @@ main hr {
 .tabs nav li.tab-current:after {
 	content: '';
 	position: absolute;
-	height: 1px;
+	height: 2px;
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: #47a3da;
+	background: $dark;
 }
 
 .tabs nav li.tab-current:after {
@@ -126,19 +126,20 @@ main hr {
 }
 
 .tabs nav a {
-	color: #becbd2;
+	color: $dark;
 	display: block;
 	line-height: 2.5;
 	padding: 0 1.25em;
 	white-space: nowrap;
+    text-decoration: none;
 }
 
 .tabs nav a:hover {
-	color: #768e9d;
+	color: $orange;
 }
 
 .tabs nav li.tab-current a {
-	color: #47a3da;
+	color: $orange;
 }
 
 .tabs nav a:before {
@@ -147,31 +148,11 @@ main hr {
 	text-transform: none;
 	font-weight: normal;
 	font-variant: normal;
-	font-family: 'icomoon';
+	font-family: 'btb';
 	line-height: 1;
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	margin: -0.25em 0.4em 0 0;
-}
-
-.icon-food:before {
-	content: "\e600";
-}
-
-.icon-lab:before {
-	content: "\e601";
-}
-
-.icon-cup:before {
-	content: "\e602";
-}
-
-.icon-truck:before {
-	content: "\e603";
-}
-
-.icon-shop:before {
-	content: "\e604";
 }
 
 /* Tab Content */
@@ -237,10 +218,10 @@ main hr {
     
     .mediabox {
         margin-top: -6px;
-        padding: 2rem 6rem;
-        border-bottom: 1px solid blue;
-        border-left: 1px solid blue;
-        border-right: 1px solid blue;
+        padding: 4rem 6rem;
+        border-bottom: 2px solid $dark;
+        border-left: 2px solid $dark;
+        border-right: 2px solid $dark;
     }
     
     .mediabox h3 {

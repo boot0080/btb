@@ -98,16 +98,6 @@
   }
 }
 
-.homepage {
-    min-height: 100vh;
-    padding-top: 4rem;
-    background-image: url(../../images/hero-bg.jpg);
-}
-
-.whydothis {
-    background-image: url(../../images/hero-bg.jpg);
-}
-
 @media only screen and (min-width: 38em) {
     .herobanner {
         padding: 5rem;
@@ -123,3 +113,28 @@
         padding-top: 9rem;
     }
 }
+
+/* Background Images */
+
+.homepage {
+    min-height: 100vh;
+    padding-top: 9rem;
+    background-image: url(../../images/hero-bg.jpg);
+}
+
+.aboutus {
+    background-image: url(../../images/hero-bg.jpg);
+}
+
+.whydothis {
+    background-image: url(../../images/hero-bg.jpg);
+}
+
+.helpout {
+    background-image: url(../../images/hero-bg.jpg);
+}
+
+.news {
+    background-image: url(../../images/hero-bg.jpg);
+}
+

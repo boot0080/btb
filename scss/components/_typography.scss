@@ -76,7 +76,6 @@ small, .font_small {font-size: 0.667em;}
 }
 
 .pull_quote {
-    font-weight: 600;
     text-align: center;
     width: 90%;
     max-width: 30rem;
@@ -113,7 +112,7 @@ ul {
 }
 
 .no-margin {
-    margin-top: 0;
+    @include zero;
 }
 
 .no-margin-top {
@@ -138,4 +137,10 @@ ul {
 
 .text-list li:last-child {
     margin-bottom: 0rem;
+}
+
+main p a {
+    text-decoration: none;
+    color: $orange;
+    border-bottom: 1px solid $orange;
 }
