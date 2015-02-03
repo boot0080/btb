@@ -50,7 +50,7 @@ h4, .cuatro {font-size: 1.25em;}
 
 .p_large, .pull_quote {font-size: 1.05em}
 
-p, main ul  {font-size: 0.95em}
+p, main ul  {font-size: 0.95em; margin-top: 1.3em;}
 
 small, .font_small {font-size: 0.667em;}
 
@@ -68,6 +68,8 @@ small, .font_small {font-size: 0.667em;}
 
     .p_large, .pull_quote {font-size: 1.25em}
 
+    .p_small {font-size: 0.96em;}
+    
     p, main ul  {font-size: 1.05em}
 
     small, .font_small {font-size: 0.667em;}
@@ -102,7 +104,7 @@ ul {
 
 .flex-img {
     display: block;
-    margin: 2rem auto 0.5rem;
+    margin: 0 auto;
     width: 100%;
 }
 
@@ -128,4 +130,12 @@ ul {
 
 .no-style {
     text-decoration: none;
+}
+
+.text-list li {
+    margin: 1rem 0;
+}
+
+.text-list li:last-child {
+    margin-bottom: 0rem;
 }
