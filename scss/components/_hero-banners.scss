@@ -5,7 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 5rem;
+    padding: 1rem;
     color: $white;
     h1, p {
         @include zero;
@@ -19,17 +19,21 @@
         color: $orange;
     }
     .button {
+        font-size: 0.95em;
         display: block;
         font-weight: 600;
         color: $white;
         text-decoration: none;
         border: solid 2px $white;
         padding: 10px;
-        margin: 40px 10px 0;
+        margin: 10px 10px 0;
         min-width: 9rem;
     }
+    .thebuttons:first-child {
+        margin-top: 10px;
+    }
     .socialist {
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left: 0px;
     }
     .social i {
@@ -48,11 +52,27 @@
 }
 
 .homepage {
-    height: 100vh;
-    padding-top: 9rem;
+    min-height: 100vh;
+    padding-top: 4rem;
     background-image: url(../../images/hero-bg.jpg);
 }
 
 .whydothis {
     background-image: url(../../images/hero-bg.jpg);
+}
+
+@media only screen and (min-width: 38em) {
+    .herobanner {
+        padding: 5rem;
+        .button {
+            margin: 40px 10px 0;
+        }
+        .socialist {
+            margin-top: 40px;
+        }
+    }
+    
+    .homepage {
+        padding-top: 9rem;
+    }
 }

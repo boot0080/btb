@@ -22,8 +22,6 @@ body {
     box-sizing: border-box;
 }
 
-p, ul {font-size: 0.85em; margin-bottom: 1.3em;}
-
 h1, h2, h3, h4, h5, h6 {
     margin: 1.414em 0 0.5em;
     font-weight: inherit;
@@ -33,16 +31,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .uno {
-  font-size: 5.063em;
+  font-size: 2.25em;
 }
 
-h2, .dos {font-size: 3.375em;}
+h2, .dos {font-size: 1.75em;}
 
-h3, .tres {font-size: 2.25em;}
+h3, .tres {font-size: 1.35em;}
 
-h4, .cuatro {font-size: 1.5em;}
+h4, .cuatro {font-size: 1.25em;}
 
-.p_large, .pull_quote {font-size: 1.25em}
+.p_large, .pull_quote {font-size: 1.05em}
+
+p, main ul  {font-size: 0.95em}
+
+small, .font_small {font-size: 0.667em;}
+
+
+@media only screen and (min-width: 38em) {
+    h1, .uno {
+      font-size: 5.063em;
+    }
+    
+    h2, .dos {font-size: 3.375em;}
+
+    h3, .tres {font-size: 2.25em;}
+
+    h4, .cuatro {font-size: 1.5em;}
+
+    .p_large, .pull_quote {font-size: 1.25em}
+
+    p, main ul  {font-size: 1.05em}
+
+    small, .font_small {font-size: 0.667em;}
+}
 
 .pull_quote {
     font-weight: 600;
@@ -56,9 +77,6 @@ h4, .cuatro {font-size: 1.5em;}
     border-bottom: 2px solid $dark;
 }
 
-p, main ul  {font-size: 1.05em}
-
-small, .font_small {font-size: 0.667em;}
 
 main h2 {
     color: $hovercolor;
