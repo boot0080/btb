@@ -249,23 +249,23 @@ header {
         animation-name: peep;
         animation-iteration-count: 1;
         animation-timing-function: cubic-bezier(.69,.34,.56,.96);
-        animation-duration: 700ms;
+        animation-duration: 1200ms;
         
         -webkit-animation-name: peep;
         -webkit-animation-iteration-count: 1;
         -webkit-animation-timing-function: cubic-bezier(.69,.34,.56,.96);
-        -webkit-animation-duration: 700ms;
+        -webkit-animation-duration: 1200ms;
     }
     
     @keyframes peep {
         0% {transform: translateX(0);}
-        75% {transform: translateX(8.55rem);}
+        35% {transform: translateX(8.55rem);}
         100% {transform: translateX(0);}
     }
     
     @-webkit-keyframes peep {
         0% {transform: translateX(0);}
-        75% {transform: translateX(8.55rem);}
+        35% {transform: translateX(8.55rem);}
         100% {transform: translateX(0);}
     }
     
@@ -324,7 +324,7 @@ header {
         text-align: right;
         padding-right: 5.75rem;
         -webkit-transform: translateX(-8.55rem);
-        -webkit-transition: all 290ms cubic-bezier(.69,.34,.56,.96);
+        -webkit-transition: all 400ms cubic-bezier(.69,.34,.56,.96);
     }
     
     .nav-list a:active, 
