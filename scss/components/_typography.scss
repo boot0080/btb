@@ -26,6 +26,10 @@ body {
     color: $orange;
 }
 
+.hovercolor {
+    color: $hovercolor;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 1.414em 0 0.5em;
     font-weight: inherit;
@@ -112,4 +116,16 @@ ul {
 
 .no-margin-top {
     margin-top: 0;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.no-style {
+    text-decoration: none;
 }

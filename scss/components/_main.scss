@@ -34,8 +34,47 @@ main {padding: 3rem 5%;}
 }
 
 main .button {
-    
+    @include button($orange, 2rem auto);
+    text-align: center;
+    max-width: 17rem;
 }
+
+main hr {
+    border: 0;
+    height: 0;
+    border-top: none;
+    border-bottom: 1px solid $dark;
+    margin: 5rem 0 0rem;
+}
+
+.subscribe {
+    display: block;
+    width: 100%;
+}
+
+.subscribe input {
+    display: block;
+    width: 25rem;
+    height: 2.5rem;
+    @include button($dark, 2rem auto 1rem);
+    font-weight: 400;
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: $dark;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: $dark;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $dark;  
+}
+:-ms-input-placeholder {  
+   color: $dark;  
+}
+
+
 
 .tabs {
 	position: relative;
