@@ -19,16 +19,9 @@
         color: $orange;
     }
     .button {
-        font-size: 0.95em;
-        display: block;
-        font-weight: 600;
-        color: $white;
-        text-decoration: none;
-        border: solid 2px $white;
-        padding: 10px;
-        margin: 10px 10px 0;
-        min-width: 9rem;
+        @include button($white, 10px 10px 0);
     }
+    
     .thebuttons:first-child {
         margin-top: 10px;
     }

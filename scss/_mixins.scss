@@ -26,3 +26,15 @@
     white-space: normal;
     overflow: visible;
 }
+
+@mixin button($color, $margin) {
+        font-size: 0.95em;
+        display: block;
+        font-weight: 600;
+        text-decoration: none;
+        border: solid 2px $color;
+        padding: 10px;
+        min-width: 9rem;
+        color: $color;
+        margin: $margin;
+    }
