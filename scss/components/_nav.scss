@@ -93,7 +93,7 @@ header {
     margin: 0;
     padding: 0;
     border: none;
-    width: 5.08rem;
+    width: 5rem;
 }
 	
 @media only screen and (min-width: 45em) {
@@ -118,7 +118,7 @@ header {
     .fakewrap {
         position: absolute;
         height: 100%;
-        width: 5.08rem;
+        width: 5rem;
         left: 0;
         background-color: $dark;
         z-index: 1000;
@@ -126,7 +126,7 @@ header {
     
     .nav-list i {
         height: 2.75rem;
-        width: 5rem;
+        width: 5.1rem;
     }
     
     .nav-list li {
@@ -144,7 +144,7 @@ header {
     .nav-list a:visited{
         text-align: right;
         padding-right: 5.75rem;
-        -webkit-transform: translateX(-7.5rem);
+        -webkit-transform: translateX(-7.55rem);
         -webkit-transition: all 290ms cubic-bezier(.69,.34,.56,.96);
     }
     

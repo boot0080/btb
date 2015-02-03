@@ -14,6 +14,36 @@
         max-width: 30rem;
         margin: 1rem auto 0;
     }
+    .p_large {
+        font-weight: 600;
+        color: $orange;
+    }
+    .button {
+        display: block;
+        font-weight: 600;
+        color: $white;
+        text-decoration: none;
+        border: solid 2px $white;
+        padding: 10px;
+        margin: 60px 10px 0;
+        min-width: 9rem;
+    }
+    .social i {
+        color: $white;
+        font-size: 2rem;
+        display: block;
+        padding: 10px;
+    }
+    .social a span {
+        @include hide-text;
+        display: none;
+    }
+}
+
+.homepage {
+    height: 100vh;
+    padding-top: 10rem;
+    background-image: url(../../images/hero-bg.jpg);
 }
 
 .whydothis {
