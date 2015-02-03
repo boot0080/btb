@@ -1,1 +1,9 @@
 // Footer Styles
+
+footer {
+    @include zero;
+    text-align: center;
+    background-color: $dark;
+    bottom: 0;
+    text-align: center;
+}

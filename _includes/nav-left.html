@@ -1,0 +1,18 @@
+<header>
+    <a href="#"><img class="unit unit-xs-hidden unit-s-hidden" src="images/btblogo.svg"></a>
+    <a href="#nav" class="nav-btn hide-text">Navigation</a>
+    <nav class="nav nav-top" data-state="collapsed">
+        <ul class="logo-list">
+            <li><a class="logo" href="index.html"><img src="images/btblogo.svg"></a></li>
+        </ul>
+        <ul class="nav-list">
+            <li><a class="{% if page.url == '/index.html' %}current{% endif %}" href="{{site.baseurl}}/index.html"><i class="icon-home"></i>Home</a></li>
+            <li><a class="{% if page.url == '/aboutus.html' %}current{% endif %}" href="{{site.baseurl}}/aboutus.html"><i class="icon-about"></i>About Us</a></li>
+            <li><a class="{% if page.url == '/whydothis.html' %}current{% endif %}" href="{{site.baseurl}}/whydothis.html"><i class="icon-why"></i>Why do this</a></li>
+            <li><a class="{% if page.url == '/helpout.html' %}current{% endif %}" href="{{site.baseurl}}/helpout.html"><i class="icon-help"></i>Help Out</a></li>
+            <li><a class="{% if page.url == '/news.html' %}current{% endif %}" href="{{site.baseurl}}/news.html"><i class="icon-news"></i>News &amp; Events</a></li>
+            <li><a href="#contact"><i class="icon-mail"></i>Contact</a></li>
+        </ul>
+    </nav>
+    <div class="fakewrap"></div>
+</header>
