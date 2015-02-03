@@ -25,12 +25,20 @@
   width: 2rem;
 }
  
-.icon-home:before { content: '\e800'; } /* '' */
-.icon-mail:before { content: '\e801'; } /* '' */
-.icon-help:before { content: '\e802'; } /* '' */
-.icon-about:before { content: '\e806'; } /* '' */
-.icon-why:before { content: '\e807'; } /* '' */
-.icon-news:before { content: '\e809'; } /* '' */
 .icon-fb:before { content: '\e80c'; } /* '' */
 .icon-tw:before { content: '\e80d'; } /* '' */
 .icon-ig:before { content: '\e80f'; } /* '' */
+
+.icon-about:before { content: '\e800'; } /* '' */
+.icon-books:before { content: '\e801'; } /* '' */
+.icon-car:before { content: '\e802'; } /* '' */
+.icon-close:before { content: '\e803'; } /* '' */
+.icon-mail:before { content: '\e804'; } /* '' */
+.icon-down:before { content: '\e805'; } /* '' */
+.icon-hamburger:before { content: '\e806'; } /* '' */
+.icon-help:before { content: '\e807'; } /* '' */
+.icon-home:before { content: '\e808'; } /* '' */
+.icon-letters:before { content: '\e809'; } /* '' */
+.icon-library:before { content: '\e80a'; } /* '' */
+.icon-news:before { content: '\e80b'; } /* '' */
+.icon-why:before { content: '\e80c'; } /* '' */

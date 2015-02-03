@@ -22,7 +22,7 @@
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: #ccc;
+	background-color: $orange;
 }
 
 header {
@@ -39,12 +39,12 @@ header {
 
 .nav-list li {
     position: relative;
-    background-color: #000;
+    background-color: $dark;
     min-width: 10rem;
 }
 
 .nav-list li:first-child {
-    background-color: white;
+    background-color: $white;
     border-top: none;
 }
 
@@ -68,7 +68,7 @@ header {
     width: 100%;
     padding: 0.75rem 0 0.75rem 14px;
 	display: inline-block;
-	color: #fff;
+	color: $white;
 	text-decoration: none;
     background-color: $hovercolor;
 }
@@ -197,7 +197,7 @@ header {
 }
 
 .tab-content {
-    background-color: #e6e6e6;
+    background-color: transparent;
     height: 8rem;
     width: 100%;
 }

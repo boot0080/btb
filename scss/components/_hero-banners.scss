@@ -7,6 +7,13 @@
     background-position: center center;
     padding: 5rem;
     color: $white;
+    h1, p {
+        @include zero;
+    }
+    p {
+        max-width: 30rem;
+        margin: 1rem auto 0;
+    }
 }
 
 .whydothis {
