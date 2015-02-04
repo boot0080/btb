@@ -2,7 +2,7 @@
 
 footer {
     @include zero;
-    @include bgcover(url(../../images/hero-bg.jpg));
+    @include bgcover(url(http://ariahboots.ca/btb/images/hero-bg.jpg));
     text-align: center;
     background-color: $dark;
     bottom: 0;
