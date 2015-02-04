@@ -100,16 +100,34 @@ main hr {
     }
 }
 
-.blogpost .top {
-    width: 100%;
-    border-bottom: 1px solid $dark;
-    padding-bottom: 0.75rem;
-    margin-bottom: 1.25rem;
-    padding-top: 2rem;
+.blogpost {
+    .top {
+        width: 100%;
+        border-bottom: 1px solid $dark;
+        padding-bottom: 0.75rem;
+        margin-bottom: 1.25rem;
+        margin-top: 4rem;
+        padding-top: 1rem;
+        position: relative;
+    }
+    h2 {
+        font-family: 'Open Sans';
+        text-align: left;
+        font-weight: 600;
+    }
+    a {
+        @include linkreset($orange);
+        display: inline-block;
+        margin-top: 0.75rem;
+    }
 }
 
-.blogpost a {
-    @include linkreset($orange);
-    display: inline-block;
-    margin-top: 0.75rem;
+.blogpost .top:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 1px;
+    background-color: $dark;
+    left: 0;
+    width: 52px;
 }
