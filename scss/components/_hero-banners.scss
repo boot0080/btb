@@ -20,8 +20,11 @@
     }
     .button {
         @include button($white, 10px 10px 0);
+        @include transitionlinear(200ms)
     }
-    
+    .button:hover {
+        background-color: $orangetransp;
+    }
     .thebuttons:first-child {
         margin-top: 10px;
     }
@@ -34,17 +37,24 @@
         font-size: 25px;
         display: block;
         margin: 0 10px;
+        @include transitionlinear(200ms)
     }
     .social a span {
         @include hide-text;
         display: none;
     }
+    .social a:hover i {
+        color: $orange;
+    }
     .arrow {
         color: $white;
         -webkit-animation: bounce 1250ms ease-in;
         -webkit-animation-delay: 1s;
+        animation: bounce 1250ms ease-in;
+        animation-delay: 1s;
     }
-    .arrow:hover {
+    .arrow:hover,
+    .arrow:active {
         -webkit-animation: bounce 1250ms ease;
         animation: bounce 1250ms ease;
     }
