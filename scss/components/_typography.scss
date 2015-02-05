@@ -149,3 +149,7 @@ main p a {
     @include linkreset($orange);
     margin: 0 5px;
 }
+
+.linkreset {
+    @include linkreset($orange);
+}

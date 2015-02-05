@@ -114,6 +114,7 @@ main hr {
         font-family: 'Open Sans';
         text-align: left;
         font-weight: 600;
+        margin-top: .75rem;
     }
     a {
         @include linkreset($orange);
