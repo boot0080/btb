@@ -150,3 +150,14 @@
     background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
 }
 
+@media only screen and (min-width: 38em) {
+    .newspost {
+        h1 {
+            padding: 0 15rem;
+            color: $orange;
+        }
+        p {
+            max-width: 40rem;
+        }
+    }
+}
