@@ -53,8 +53,9 @@
         animation: bounce 1250ms ease-in;
         animation-delay: 1s;
     }
-    .arrow:hover,
-    .arrow:active {
+    .arrow:focus i,
+    .arrow:hover i,
+    .arrow:active i {
         -webkit-animation: bounce 1250ms ease;
         animation: bounce 1250ms ease;
     }
