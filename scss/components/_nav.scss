@@ -40,7 +40,7 @@ header {
 .nav-list li {
     position: relative;
     background-color: $dark;
-    min-width: 10rem;
+    min-width: 15rem;
 }
 
 .nav-list li:first-child {
@@ -271,53 +271,29 @@ header {
         35% {transform: translateX(8.55rem);}
         100% {transform: translateX(0);}
     }
-    
+            
     .animate li:nth-child(1){ 
-        -webkit-animation-delay: 75ms; 
-        -moz-animation-delay: 75ms;
-        -ms-animation-delay: 75ms; 
-        -o-animation-delay: 75ms;
-        animation-delay: 75ms;
+        @include animation-delay(25ms);
     }
 
     .animate li:nth-child(2){ 
-        -webkit-animation-delay: 100ms; 
-        -moz-animation-delay: 100ms;
-        -ms-animation-delay: 100ms; 
-        -o-animation-delay: 100ms;
-        animation-delay: 100ms;
+        @include animation-delay(50ms);
     }
 
     .animate li:nth-child(3){ 
-        -webkit-animation-delay: 125ms; 
-        -moz-animation-delay: 125ms;
-        -ms-animation-delay: 125ms; 
-        -o-animation-delay: 125ms;
-        animation-delay: 125ms
+        @include animation-delay(75ms);
     }
     
     .animate li:nth-child(4){ 
-        -webkit-animation-delay: 150ms; 
-        -moz-animation-delay: 150ms;
-        -ms-animation-delay: 150ms; 
-        -o-animation-delay: 150ms;
-        animation-delay: 150ms;
+        @include animation-delay(100ms);
     }
     
     .animate li:nth-child(5){ 
-        -webkit-animation-delay: 175ms; 
-        -moz-animation-delay: 175ms;
-        -ms-animation-delay: 175ms; 
-        -o-animation-delay: 175ms;
-        animation-delay: 175ms;
+        @include animation-delay(125ms);
     }
     
     .animate li:nth-child(6){ 
-        -webkit-animation-delay: 200ms; 
-        -moz-animation-delay: 200ms;
-        -ms-animation-delay: 200ms; 
-        -o-animation-delay: 200ms;
-        animation-delay: 200ms;
+        @include animation-delay(150ms);
     }
     
     .nav-list a, 
@@ -325,13 +301,13 @@ header {
     .nav-list a:visited{
         text-align: right;
         padding-right: 5.75rem;
-        -webkit-transform: translateX(-8.55rem);
+        -webkit-transform: translateX(-10.05rem);
         -webkit-transition: all 400ms cubic-bezier(.69,.34,.56,.96);
     }
     
     .nav-list a:active, 
     .nav-list a:hover {
-        -webkit-transform: translateX(0rem); 
+        -webkit-transform: translateX(-1.5rem); 
     }
 
 }
