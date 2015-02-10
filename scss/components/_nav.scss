@@ -340,7 +340,7 @@ header {
         -webkit-transform: translateX(0);
     }
     
-    .animation li {
+    .animate li {
         -webkit-transform: translateX(0);
         
         animation-name: peep;
@@ -406,7 +406,7 @@ header {
         animation-delay: 125ms;
     }
     
-    .animation li:nth-child(6){ 
+    .animate li:nth-child(6){ 
         -webkit-animation-delay: 150ms; 
         -moz-animation-delay: 150ms;
         -ms-animation-delay: 150ms; 

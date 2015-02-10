@@ -1956,7 +1956,7 @@ header {
     -webkit-transform: translateX(0); }
 
   /* line 343, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .animation li {
+  .animate li {
     -webkit-transform: translateX(0);
     -webkit-animation-name: peep;
             animation-name: peep;
@@ -2034,7 +2034,7 @@ header {
     animation-delay: 125ms; }
 
   /* line 409, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .animation li:nth-child(6) {
+  .animate li:nth-child(6) {
     -webkit-animation-delay: 150ms;
     -ms-animation-delay: 150ms;
     animation-delay: 150ms; }

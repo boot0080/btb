@@ -26,9 +26,9 @@
 
 <script>
     window.onload = function() {
-         if(sessionStorage.getItem('beenhere') != "true"){
+        if(!sessionStorage.getItem("beenhere")){
+            sessionStorage.setItem("beenhere", "true");
             $(".nav-list").addClass("animate");
-                sessionStorage.setItem("beenhere", "true");
-            }
+        }
     });
 </script>
