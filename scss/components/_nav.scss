@@ -238,7 +238,7 @@ header {
     
 }
 
-/* Homepage Nav Animation */
+/* Homepage Nav Animation 
 
 
 @media only screen and (min-width: 45em) {
@@ -311,6 +311,102 @@ header {
     }
     
     .nav-list li:nth-child(6){ 
+        -webkit-animation-delay: 150ms; 
+        -moz-animation-delay: 150ms;
+        -ms-animation-delay: 150ms; 
+        -o-animation-delay: 150ms;
+        animation-delay: 150ms;
+    }
+    
+    .nav-list a, 
+    .nav-list a:link,
+    .nav-list a:visited{
+        text-align: right;
+        padding-right: 5.75rem;
+        -webkit-transform: translateX(-8.55rem);
+        -webkit-transition: all 400ms cubic-bezier(.69,.34,.56,.96);
+    }
+    
+    .nav-list a:active, 
+    .nav-list a:hover {
+        -webkit-transform: translateX(0rem); 
+    }
+
+} */
+
+@media only screen and (min-width: 45em) {
+    
+    .nav-list li {
+        -webkit-transform: translateX(0);
+    }
+    
+    .animation li {
+        -webkit-transform: translateX(0);
+        
+        animation-name: peep;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(.69,.34,.56,.96);
+        animation-duration: 1200ms;
+        
+        -webkit-animation-name: peep;
+        -webkit-animation-iteration-count: 1;
+        -webkit-animation-timing-function: cubic-bezier(.69,.34,.56,.96);
+        -webkit-animation-duration: 1200ms;
+    }
+    
+    @keyframes peep {
+        0% {transform: translateX(0);}
+        35% {transform: translateX(8.55rem);}
+        100% {transform: translateX(0);}
+    }
+    
+    @-webkit-keyframes peep {
+        0% {transform: translateX(0);}
+        35% {transform: translateX(8.55rem);}
+        100% {transform: translateX(0);}
+    }
+            
+    .animate li:nth-child(1){ 
+        -webkit-animation-delay: 25ms; 
+        -moz-animation-delay: 25ms;
+        -ms-animation-delay: 25ms; 
+        -o-animation-delay: 25ms;
+        animation-delay: 25ms;
+    }
+
+    .animate li:nth-child(2){ 
+        -webkit-animation-delay: 50ms; 
+        -moz-animation-delay: 50ms;
+        -ms-animation-delay: 50ms; 
+        -o-animation-delay: 50ms;
+        animation-delay: 50ms;
+    }
+
+    .animate li:nth-child(3){ 
+        -webkit-animation-delay: 75ms; 
+        -moz-animation-delay: 75ms;
+        -ms-animation-delay: 75ms; 
+        -o-animation-delay: 75ms;
+        animation-delay: 75ms
+    }
+    
+    .animate li:nth-child(4){ 
+        -webkit-animation-delay: 100ms; 
+        -moz-animation-delay: 100ms;
+        -ms-animation-delay: 100ms; 
+        -o-animation-delay: 100ms;
+        animation-delay: 100ms;
+    }
+    
+    .animate li:nth-child(5){ 
+        -webkit-animation-delay: 125ms; 
+        -moz-animation-delay: 125ms;
+        -ms-animation-delay: 125ms; 
+        -o-animation-delay: 125ms;
+        animation-delay: 125ms;
+    }
+    
+    .animation li:nth-child(6){ 
         -webkit-animation-delay: 150ms; 
         -moz-animation-delay: 150ms;
         -ms-animation-delay: 150ms; 
