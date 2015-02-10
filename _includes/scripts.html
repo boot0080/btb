@@ -25,7 +25,7 @@
 </script>
 
 <script>
-    window.onload = function() {
+    window.addEventListener("load", function() {
         if(!sessionStorage.getItem("beenhere")){
             sessionStorage.setItem("beenhere", "true");
             $(".nav-list").addClass("animate");
