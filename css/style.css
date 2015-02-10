@@ -1951,11 +1951,6 @@ header {
   /* line 331, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list a:active, .nav-list a:hover {
     -webkit-transform: translateX(0rem); }
-
-  /* line 335, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .no-animation li {
-    animation: none;
-    -webkit-animation: none; }
  }
 
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/footer */
