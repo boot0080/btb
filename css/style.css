@@ -1,3 +1,17 @@
+/*
+@mixin button($color, $margin) {
+    font-size: 0.95em;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    border: solid 2px $color;
+    padding: 10px;
+    min-width: 9rem;
+    color: $color;
+    margin: $margin;
+    background-color: transparent;
+}
+*/
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/grid */
 .grid {
   margin: 0;
@@ -2193,15 +2207,47 @@ main .button {
   color: #eb6604;
   margin: 2rem auto;
   background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
   transition: all 200ms linear;
+  overflow: hidden;
   text-align: center;
   max-width: 17rem; }
-  /* line 39, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  main .button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s; }
+  /* line 42, /Users/Daniela/Desktop/btb/scss/components/main */
+  main .button:after {
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #eb6604;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%); }
+  /* line 54, /Users/Daniela/Desktop/btb/scss/components/main */
   main .button:hover {
-    background-color: #eb6604;
     color: #fff; }
+  /* line 57, /Users/Daniela/Desktop/btb/scss/components/main */
+  main .button:active {
+    color: #fff; }
+  /* line 60, /Users/Daniela/Desktop/btb/scss/components/main */
+  main .button:hover:after {
+    height: 111%;
+    opacity: 1; }
+  /* line 65, /Users/Daniela/Desktop/btb/scss/components/main */
+  main .button:active:after {
+    height: 110%;
+    opacity: 1; }
 
-/* line 47, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 71, /Users/Daniela/Desktop/btb/scss/components/main */
 main hr {
   border: 0;
   height: 0;
@@ -2209,12 +2255,12 @@ main hr {
   border-bottom: 1px solid #0f151e;
   margin: 5rem 0 0rem; }
 
-/* line 55, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 79, /Users/Daniela/Desktop/btb/scss/components/main */
 .subscribe {
   display: block;
   width: 100%; }
 
-/* line 60, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 84, /Users/Daniela/Desktop/btb/scss/components/main */
 .subscribe input {
   background-color: transparent;
   display: block;
@@ -2230,10 +2276,20 @@ main hr {
   color: #0f151e;
   margin: 2rem auto 1rem;
   background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
   font-weight: 400;
   padding: 10px; }
+  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  .subscribe input:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s; }
 
-/* line 70, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 94, /Users/Daniela/Desktop/btb/scss/components/main */
 .news .subscribe input {
   font-size: 0.95em;
   display: block;
@@ -2244,35 +2300,45 @@ main hr {
   min-width: 9rem;
   color: #fff;
   margin: 2rem auto 1rem;
-  background-color: transparent; }
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transition: all 0.3s; }
+  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  .news .subscribe input:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s; }
 
-/* line 56, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 85, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input ::-webkit-input-placeholder {
   color: #fff; }
-/* line 59, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 88, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input :-moz-placeholder {
   /* Firefox 18- */
   color: #fff; }
-/* line 62, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 91, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input ::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff; }
-/* line 65, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 94, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input :-ms-input-placeholder {
   color: #fff; }
 
-/* line 81, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 105, /Users/Daniela/Desktop/btb/scss/components/main */
 .hiddencap {
   margin: 0;
   padding: 0; }
-  /* line 83, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 107, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure {
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
     margin: 3rem 0 2rem; }
-  /* line 89, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 113, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure figcaption {
     margin: 0;
     padding: 0;
@@ -2285,12 +2351,12 @@ main hr {
     padding: 15% 1.35rem 1rem 1rem;
     opacity: 0;
     transition: all 250ms linear; }
-  /* line 102, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 126, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure:hover figcaption {
     top: 0;
     opacity: 1; }
 
-/* line 109, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 133, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost .top {
   width: 100%;
   border-bottom: 1px solid #0f151e;
@@ -2299,13 +2365,13 @@ main hr {
   margin-top: 4rem;
   padding-top: 1rem;
   position: relative; }
-/* line 118, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 142, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost h2 {
   font-family: 'Open Sans';
   text-align: left;
   font-weight: 600;
   margin-top: 0.75rem; }
-/* line 124, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 148, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost a {
   text-decoration: none;
   color: #eb6604;
@@ -2313,7 +2379,7 @@ main hr {
   display: inline-block;
   margin-top: 0.75rem; }
 
-/* line 131, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 155, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost .top:before {
   content: '';
   position: absolute;
@@ -2357,7 +2423,17 @@ main hr {
     color: #fff;
     margin: 10px 10px 0;
     background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
     transition: all 200ms linear; }
+    /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+    .herobanner .button:after {
+      content: '';
+      position: absolute;
+      z-index: -1;
+      transition: all 0.3s; }
   /* line 25, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .button:hover {
     background-color: rgba(235, 102, 4, 0.8); }

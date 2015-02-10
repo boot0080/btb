@@ -32,18 +32,47 @@
     transition: all $value linear;
 }
 
+/*
 @mixin button($color, $margin) {
-        font-size: 0.95em;
-        display: block;
-        font-weight: 600;
-        text-decoration: none;
-        border: solid 2px $color;
-        padding: 10px;
-        min-width: 9rem;
-        color: $color;
-        margin: $margin;
-        background-color: transparent;
+    font-size: 0.95em;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    border: solid 2px $color;
+    padding: 10px;
+    min-width: 9rem;
+    color: $color;
+    margin: $margin;
+    background-color: transparent;
+}
+*/
+
+@mixin button($color, $margin) {
+    font-size: 0.95em;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    border: solid 2px $color;
+    padding: 10px;
+    min-width: 9rem;
+    color: $color;
+    margin: $margin;
+    background-color: transparent;
+	cursor: pointer;
+	outline: none;
+    position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
     }
+}
 
 @mixin bgcover($url) {
     background-image: $url;
