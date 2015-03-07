@@ -118,25 +118,24 @@ main hr {
     width: 100%;
 }
 
-.subscribe input {
-    background-color: transparent;
-    display: block;
-    width: 20rem;
+.subscribe input {    
+    @include input($body, 2rem auto 1rem);
     @media only screen and (min-width: 60em) {
         width: 25rem;
     }
-    height: 2.5rem;
-    @include button($dark, 2rem auto 1rem);
-    font-weight: 400;
-    padding: 10px;
+    //font-weight: 400;
 }
 
 .news .subscribe input {
-    @include button($white, 2rem auto 1rem);
+    @include input($white, 2rem auto 1rem);
 }
 
 .placeholder{
     @include placeholder($white);
+}
+
+.placeholder-body{
+    @include placeholder($body);
 }
 
 .hiddencap {
@@ -155,10 +154,16 @@ main hr {
         left: 0;
         right: 0;
         bottom: 0;
-        padding: 15% 1.35rem 1rem 1rem;
         opacity: 0;
         -webkit-transition: all 250ms linear;
         transition: all 250ms linear;
+        p {
+            margin-top: 50%;
+            -webkit-transform: translateY(-50%);
+            @media only screen and (min-width: 38em) {
+                padding: 0 5%;
+            }
+        }
     }
     figure:hover figcaption {
         top: 0;

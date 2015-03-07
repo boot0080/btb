@@ -96,6 +96,34 @@
     }
 }
 
+@mixin input($color, $margin) {
+    font-size: 0.875em;
+    font-family: $opensans;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    
+    color: $color;
+    border: solid 2px $color;
+    background-color: transparent;
+    
+    position: relative;
+    overflow: hidden;
+    margin: $margin;
+    padding: 10px;
+    min-width: 9rem;
+    max-width: 17rem;
+    
+	cursor: pointer;
+	outline: none;
+    
+    -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
 
 @mixin bgcover($url) {
     background-image: $url;
@@ -106,16 +134,20 @@
 
 @mixin placeholder($color) {
     ::-webkit-input-placeholder {
-       color: $color;
+        color: $color;
+        font-size: .875rem;
     }
     :-moz-placeholder { /* Firefox 18- */
-       color: $color;  
+        color: $color;  
+        font-size: .875rem;
     }
     ::-moz-placeholder {  /* Firefox 19+ */
-       color: $color;  
+        color: $color;  
+        font-size: .875rem;
     }
     :-ms-input-placeholder {  
-       color: $color;  
+        color: $color;
+        font-size: .875rem;
     }
 }
 
@@ -141,4 +173,18 @@
     -ms-transform: translate(2.5625rem,0);
     -o-transform: translate(2.5625rem,0);
             transform: translate(2.5625rem,0);*/
+}
+
+@mixin pretty-list($color) {
+    max-width: 26rem;
+    margin: 3rem auto;
+    list-style-type: none;
+    li {
+        border-bottom: 1px solid $color;
+        color: $color;
+        padding: 1rem 0;
+    }
+    li:first-child {
+        border-top: 1px solid $color;
+    }
 }

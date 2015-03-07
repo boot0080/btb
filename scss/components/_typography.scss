@@ -166,14 +166,13 @@ main p a {
 }
 
 .pretty-list {
-    max-width: 26rem;
-    margin: 3rem auto;
-    list-style-type: none;
-    li {
-        border-bottom: 1px solid $white;
-        padding: 1rem 0;
-    }
-    li:first-child {
-        border-top: 1px solid $white;
+    @include pretty-list($white)
+}
+
+.pretty-list-body {
+    @include pretty-list($body);
+    & {
+        margin: 2rem auto;
+        max-width: 32rem;
     }
 }
