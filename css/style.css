@@ -1937,19 +1937,21 @@ header {
   position: relative;
   margin-top: -100%;
   background-color: #fff;
-  transition: all 250ms cubic-bezier(0.6, 0.39, 0.59, 0.85);
-  padding: 1.5rem 3rem 2rem; }
-  @media only screen and (min-width: 70rem) {
+  transition: all 250ms cubic-bezier(0.6, 0.39, 0.59, 0.85); }
+  @media only screen and (min-width: 25em) {
     #donate-tab, #volunteer-tab {
-      padding-left: 5rem; } }
+      padding: 1.5rem 1.5rem 2rem; } }
+  @media only screen and (min-width: 38em) {
+    #donate-tab, #volunteer-tab {
+      padding: 1.5rem 3rem 2rem; } }
 
-/* line 285, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 289, /Users/Daniela/Desktop/btb/scss/components/nav */
 #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"] {
   margin-top: 0;
   z-index: 6000;
   box-shadow: 0px 2px 10px rgba(15, 21, 30, 0.2); }
 
-/* line 291, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 295, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn, .volunteer-btn {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -1973,11 +1975,11 @@ header {
     .donate-btn, .volunteer-btn {
       width: 8rem; } }
 
-/* line 316, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 320, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn:hover, .volunteer-btn:hover {
   background-color: #445f88; }
 
-/* line 320, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 324, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn {
   right: 6rem; }
   @media only screen and (min-width: 25em) {
@@ -1987,21 +1989,21 @@ header {
     .donate-btn {
       right: 10.25rem; } }
 
-/* line 330, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 334, /Users/Daniela/Desktop/btb/scss/components/nav */
 .right-top {
   border-top: solid 3px #445f88;
   margin-top: 1.5rem;
   padding-top: 1rem; }
-  /* line 334, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 338, /Users/Daniela/Desktop/btb/scss/components/nav */
   .right-top h1 {
     text-align: left;
     margin: 0;
     padding: 0; }
-  /* line 338, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 342, /Users/Daniela/Desktop/btb/scss/components/nav */
   .right-top p {
     margin: 0;
     padding: 0; }
-  /* line 341, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 345, /Users/Daniela/Desktop/btb/scss/components/nav */
   .right-top a {
     text-decoration: none;
     color: #f26522;
