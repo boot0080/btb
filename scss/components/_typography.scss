@@ -20,6 +20,7 @@ body {
     line-height: 1.45;
     color: $body;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .orange {
@@ -154,4 +155,15 @@ main p a {
 
 .linkreset {
     @include linkreset($orange);
+}
+
+.decor-subtitle {
+    display: block;
+    text-align: center;
+    font-size: .75rem;
+    color: transparentize($hovercolor, .4);
+    text-transform: uppercase;
+    font-family: $opensans;
+    letter-spacing: 4px;
+    margin-bottom: 2rem;
 }

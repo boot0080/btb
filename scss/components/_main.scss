@@ -30,17 +30,45 @@ body, html {padding: 0; margin: 0;}
 
 main {
     padding: 3rem 5%;
-    overflow-y: auto;
     overflow-x: hidden;
+    @media only screen and (min-width: 60em) {
+        //padding: 3rem 20% 10rem 27.5%;
+        padding: 3rem 20% 10rem;
+    }
 }
 
-@media only screen and (min-width: 60em) {
-    
-    main {
-        padding: 3rem 20% 10rem 27.5%;
-        
+.overlay {
+    width: 100%;
+    padding: 3rem 2rem 5rem;
+    @media only screen and (min-width: 18em) {
+        padding: 3rem 5rem 5rem;
     }
+    color: $white;
+    @include bgcover(url(../../images/overlay-test.jpg));
+    h3 {
+        color: $white;
+        margin-top: none;
+    }
+    @media only screen and (min-width: 38em) {
+        padding: 3rem 8rem 6rem;
+    }
+    p {
+        max-width: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
+.contain-width {
+    max-width: 43rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contain-width-2 {
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main .button {

@@ -4,11 +4,21 @@
     border: 2px solid $body;
     padding: 1.25rem;
     margin-top: -8px;
-    @media only screen and (min-width: 32rem) {
-        padding: 4rem 6rem;
+    @media only screen and (min-width: 25rem) {
+        padding: 4rem 10%;
+    }
+    @media only screen and (min-width: 80rem) {
+        padding: 5.5rem 10%;
     }
     h3 {
         margin-top: 0;
+    }
+    p {
+        margin: 0 auto;
+        max-width: 26rem;
+        @media only screen and (min-width: 25rem) {
+            max-width: 32rem;
+        }
     }
 }
 
@@ -39,8 +49,9 @@
         a {
             color: $body;
             display: block;
-            line-height: 2.5;
-            padding: 0 1.25em;
+            line-height: 1;
+            font-size: 1.5rem;
+            padding: .6rem .8rem .4rem;
             white-space: nowrap;
             text-decoration: none;
             transition: color 200ms linear;
@@ -134,4 +145,8 @@
 		margin: 0 0 0 -2px;
 	}
 
+}
+
+.tabs nav a span {
+    font-size: 1rem;
 }
