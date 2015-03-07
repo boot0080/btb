@@ -171,3 +171,16 @@ main p a {
     letter-spacing: 4px;
     margin-bottom: 2rem;
 }
+
+.pretty-list {
+    max-width: 26rem;
+    margin: 3rem auto;
+    list-style-type: none;
+    li {
+        border-bottom: 1px solid $white;
+        padding: 1rem 0;
+    }
+    li:first-child {
+        border-top: 1px solid $white;
+    }
+}
