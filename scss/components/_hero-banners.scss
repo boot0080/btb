@@ -36,11 +36,10 @@
         color: $orange;
     }
     .button {
-        @include topbutton($white, 10px 10px 0);
-        @include transitionlinear(200ms)
-    }
-    .button:hover {
-        background-color: $orange;
+        @include button($white, 10px 10px 0);
+        &:hover {
+            color: $orange;
+        }
     }
     .thebuttons:first-child {
         margin-top: 10px;

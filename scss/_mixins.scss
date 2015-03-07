@@ -32,75 +32,70 @@
     transition: all $value linear;
 }
 
-/*
-@mixin button($color, $margin) {
-    font-size: 0.95em;
-    display: block;
-    font-weight: 600;
-    text-decoration: none;
-    border: solid 2px $color;
-    padding: 10px;
-    min-width: 9rem;
-    color: $color;
-    margin: $margin;
-    background-color: transparent;
-}
-*/
-
 @mixin button($color, $margin) {
     font-size: 0.95em;
     font-family: $opensans;
     display: block;
     font-weight: 600;
+    z-index: 2;
     text-decoration: none;
-    border: solid 2px $color;
-    padding: 10px;
-    min-width: 9rem;
+    text-align: center;
+    
     color: $color;
-    margin: $margin;
+    border: solid 2px $color;
     background-color: transparent;
-	cursor: pointer;
-	outline: none;
+    
     position: relative;
-	-webkit-transition: all 0.3s;
+    overflow: hidden;
+    margin: $margin;
+    padding: 10px;
+    min-width: 9rem;
+    max-width: 17rem;
+    
+	cursor: pointer;
+	outline: none;
+    
+    -webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+    
     &:after {
         content: '';
         position: absolute;
         z-index: -1;
+        width: 101%;
+        height: 0;
+        top: 50%;
+        left: 50%;
+        background: $color;
+        opacity: 0;
+        
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
+    }
+    &:hover {
+        color: $white;
+    }
+    &:active {
+        color: $white;
+    }
+    &:hover:after {
+        height: 111%;
+        opacity: 1;
+    }
+
+    &:active:after {
+        height: 110%;
+        opacity: 1;
     }
 }
 
-@mixin topbutton($color, $margin) {
-    font-size: 0.95em;
-    font-family: $opensans;
-    display: block;
-    font-weight: 600;
-    text-decoration: none;
-    border: solid 2px $color;
-    padding: 10px;
-    min-width: 9rem;
-    color: $color;
-    margin: $margin;
-    background-color: transparent;
-	cursor: pointer;
-	outline: none;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-    &:after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-    }
-}
 
 @mixin bgcover($url) {
     background-image: $url;

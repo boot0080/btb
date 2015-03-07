@@ -96,6 +96,10 @@ main h2 {
     font-style: italic;
 }
 
+.blue {
+    color: $hovercolor;
+}
+
 img+.caption {text-align: right;}
 
 ul {
@@ -120,12 +124,12 @@ ul {
     margin-top: 1.2rem;
 }
 
-.left-align {
-    text-align: left;
-}
-
 .center-align {
     text-align: center;
+}
+
+.left-align {
+    text-align: left;
 }
 
 .no-style {
