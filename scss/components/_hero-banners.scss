@@ -13,9 +13,10 @@
     p {
         max-width: 30rem;
         margin: 1rem auto 0;
+        font-family: $opensans;
+        font-weight: 600;
     }
     .p_large {
-        font-weight: 600;
         color: $orange;
     }
     .button {
@@ -23,7 +24,7 @@
         @include transitionlinear(200ms)
     }
     .button:hover {
-        background-color: $orangetransp;
+        background-color: $orange;
     }
     .thebuttons:first-child {
         margin-top: 10px;

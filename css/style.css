@@ -1479,15 +1479,15 @@ body, html {
 /* line 16, /Users/Daniela/Desktop/btb/scss/components/typography */
 body {
   background-color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'chaparral-pro', sans-serif;
   font-weight: 400;
   line-height: 1.45;
-  color: #0f151e;
+  color: #716a65;
   box-sizing: border-box; }
 
 /* line 25, /Users/Daniela/Desktop/btb/scss/components/typography */
 .orange {
-  color: #eb6604; }
+  color: #f26522; }
 
 /* line 29, /Users/Daniela/Desktop/btb/scss/components/typography */
 .hovercolor {
@@ -1499,72 +1499,73 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
   line-height: 0.9;
   font-family: 'english', serif;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 1px; }
 
-/* line 41, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 42, /Users/Daniela/Desktop/btb/scss/components/typography */
 h1, .uno {
   font-size: 2.25em; }
 
-/* line 45, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 46, /Users/Daniela/Desktop/btb/scss/components/typography */
 h2, .dos {
   font-size: 1.75em; }
 
-/* line 47, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 48, /Users/Daniela/Desktop/btb/scss/components/typography */
 h3, .tres {
   font-size: 1.35em; }
 
-/* line 49, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 50, /Users/Daniela/Desktop/btb/scss/components/typography */
 h4, .cuatro {
   font-size: 1.25em; }
 
-/* line 51, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 52, /Users/Daniela/Desktop/btb/scss/components/typography */
 .p_large, .pull_quote {
   font-size: 1.05em; }
 
-/* line 53, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 54, /Users/Daniela/Desktop/btb/scss/components/typography */
 p, main ul {
   font-size: 0.95em;
   margin-top: 1.3em; }
 
-/* line 55, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 56, /Users/Daniela/Desktop/btb/scss/components/typography */
 small, .font_small {
   font-size: 0.667em; }
 
 @media only screen and (min-width: 38em) {
-  /* line 59, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 60, /Users/Daniela/Desktop/btb/scss/components/typography */
   h1, .uno {
     font-size: 5.063em; }
 
-  /* line 63, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 64, /Users/Daniela/Desktop/btb/scss/components/typography */
   h2, .dos {
     font-size: 3.375em; }
 
-  /* line 65, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 66, /Users/Daniela/Desktop/btb/scss/components/typography */
   h3, .tres {
     font-size: 2.25em; }
 
-  /* line 67, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 68, /Users/Daniela/Desktop/btb/scss/components/typography */
   h4, .cuatro {
     font-size: 1.5em; }
 
-  /* line 69, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 70, /Users/Daniela/Desktop/btb/scss/components/typography */
   .p_large, .pull_quote {
     font-size: 1.35em; }
 
-  /* line 71, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 72, /Users/Daniela/Desktop/btb/scss/components/typography */
   .p_small {
     font-size: 0.96em; }
 
-  /* line 73, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 74, /Users/Daniela/Desktop/btb/scss/components/typography */
   p, main ul {
     font-size: 1.05em; }
 
-  /* line 75, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 76, /Users/Daniela/Desktop/btb/scss/components/typography */
   small, .font_small {
     font-size: 0.667em; }
  }
 
-/* line 78, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 79, /Users/Daniela/Desktop/btb/scss/components/typography */
 .pull_quote {
   text-align: center;
   width: 90%;
@@ -1575,79 +1576,79 @@ small, .font_small {
   border-top: 2px solid #0f151e;
   border-bottom: 2px solid #0f151e; }
 
-/* line 90, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 91, /Users/Daniela/Desktop/btb/scss/components/typography */
 main h2 {
-  color: #445f88; }
+  color: #f26522; }
 
-/* line 94, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 95, /Users/Daniela/Desktop/btb/scss/components/typography */
 .italic {
   font-style: italic; }
 
-/* line 98, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 99, /Users/Daniela/Desktop/btb/scss/components/typography */
 img + .caption {
   text-align: right; }
 
-/* line 100, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 101, /Users/Daniela/Desktop/btb/scss/components/typography */
 ul {
   margin-left: 1.05rem; }
 
-/* line 104, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 105, /Users/Daniela/Desktop/btb/scss/components/typography */
 .flex-img {
   display: block;
   margin: 0 auto;
   width: 100%; }
 
-/* line 110, /Users/Daniela/Desktop/btb/scss/components/typography */
-.roundit {
-  border-radius: 450px; }
-
-/* line 114, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 111, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-margin {
   margin: 0;
   padding: 0; }
 
-/* line 118, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 115, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-margin-top {
   margin-top: 0; }
 
-/* line 122, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 119, /Users/Daniela/Desktop/btb/scss/components/typography */
+.half-margin-top {
+  margin-top: 1.2rem; }
+
+/* line 123, /Users/Daniela/Desktop/btb/scss/components/typography */
 .left-align {
   text-align: left; }
 
-/* line 126, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 127, /Users/Daniela/Desktop/btb/scss/components/typography */
 .center-align {
   text-align: center; }
 
-/* line 130, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 131, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-style {
   text-decoration: none; }
 
-/* line 134, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 135, /Users/Daniela/Desktop/btb/scss/components/typography */
 .text-list li {
   margin: 1rem 0; }
 
-/* line 138, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 139, /Users/Daniela/Desktop/btb/scss/components/typography */
 .text-list li:last-child {
   margin-bottom: 0rem; }
 
-/* line 142, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 143, /Users/Daniela/Desktop/btb/scss/components/typography */
 main p a {
   text-decoration: none;
-  color: #eb6604;
-  border-bottom: 1px solid #eb6604; }
+  color: #f26522;
+  border-bottom: 1px solid #f26522; }
 
-/* line 148, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 149, /Users/Daniela/Desktop/btb/scss/components/typography */
 .pagination .linkreset {
   text-decoration: none;
-  color: #eb6604;
-  border-bottom: 1px solid #eb6604;
+  color: #f26522;
+  border-bottom: 1px solid #f26522;
   margin: 0 5px; }
 
-/* line 153, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 154, /Users/Daniela/Desktop/btb/scss/components/typography */
 .linkreset {
   text-decoration: none;
-  color: #eb6604;
-  border-bottom: 1px solid #eb6604; }
+  color: #f26522;
+  border-bottom: 1px solid #f26522; }
 
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/nav */
 .hide-text {
@@ -1668,7 +1669,7 @@ main p a {
 
 /* line 24, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-btn:hover, .nav-btn:focus, .nav-btn:active {
-  background-color: #eb6604; }
+  background-color: #f26522; }
 
 /* line 28, /Users/Daniela/Desktop/btb/scss/components/nav */
 header {
@@ -1699,7 +1700,7 @@ header {
   position: absolute;
   height: 3rem;
   width: 3.2rem;
-  padding-top: 2px;
+  padding-top: 1px;
   right: -9px;
   top: 0;
   font-size: 1.875rem;
@@ -1710,6 +1711,8 @@ header {
 /* line 67, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-list a, .nav-list a:link, .nav-list a:visited {
   font-size: 0.875rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
   width: 100%;
   padding: 0.875rem 0 0.875rem 0.875rem;
   display: inline-block;
@@ -1718,20 +1721,20 @@ header {
   background-color: #445f88; }
 
 /* Toggle Nav*/
-/* line 79, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 81, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-top {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
   transition: all 200ms linear; }
 
-/* line 86, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 88, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-top[data-state="expanded"] {
   opacity: 1;
   max-height: 100rem;
   overflow: auto; }
 
-/* line 92, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 94, /Users/Daniela/Desktop/btb/scss/components/nav */
 .logo-list {
   list-style-type: none;
   margin: 0;
@@ -1741,26 +1744,26 @@ header {
   display: none; }
 
 @media only screen and (min-width: 45em) {
-  /* line 105, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 107, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-btn, .nav-btn:link, .nav-btn:visited {
     display: none; }
 
-  /* line 109, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 111, /Users/Daniela/Desktop/btb/scss/components/nav */
   .logo-list {
     display: block; }
 
-  /* line 113, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 115, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-top {
     opacity: 1;
     max-height: 100rem; }
 
-  /* line 118, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 120, /Users/Daniela/Desktop/btb/scss/components/nav */
   header {
     width: 14.5rem;
     height: 100%;
     background-color: transparent; }
 
-  /* line 124, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 126, /Users/Daniela/Desktop/btb/scss/components/nav */
   .fakewrap {
     position: absolute;
     height: 100%;
@@ -1769,27 +1772,27 @@ header {
     background-color: #0f151e;
     z-index: 1000; }
 
-  /* line 133, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 135, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list i {
     width: 5.1rem; }
 
-  /* line 137, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 139, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li {
     background-color: transparent;
     width: 13.5rem; }
 
-  /* line 142, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 144, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li:nth-child(1) {
-    margin-top: -6px;
+    margin-top: -8px;
     background-color: transparent; }
 
-  /* line 147, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 149, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list .current i {
-    background-color: #eb6604; }
+    background-color: #f26522; }
  }
 
 /* Top Nav Styles */
-/* line 155, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 157, /Users/Daniela/Desktop/btb/scss/components/nav */
 .socialmedia {
   position: fixed;
   top: 0;
@@ -1797,7 +1800,7 @@ header {
   z-index: 9000;
   list-style-type: none; }
 
-/* line 163, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 165, /Users/Daniela/Desktop/btb/scss/components/nav */
 .socialmedia li {
   display: inline-block;
   width: 2rem;
@@ -1805,77 +1808,25 @@ header {
   overflow: hidden;
   text-align: center; }
 
-/* line 171, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 173, /Users/Daniela/Desktop/btb/scss/components/nav */
 .socialmedia li i {
   font-size: 150%;
   color: #445f88; }
 
 @media only screen and (min-width: 45em) {
-  /* line 178, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 180, /Users/Daniela/Desktop/btb/scss/components/nav */
   .socialmedia {
     left: 75px;
     top: 10px; }
  }
 
-/* line 185, /Users/Daniela/Desktop/btb/scss/components/nav */
-.tab {
-  position: fixed;
-  height: 10.78rem;
-  -webkit-transform: translateY(-8rem); }
-
-/* line 191, /Users/Daniela/Desktop/btb/scss/components/nav */
-.tab-content {
-  background-color: transparent;
-  height: 8rem;
-  width: 100%; }
-
-/* line 197, /Users/Daniela/Desktop/btb/scss/components/nav */
-.tab-btn {
-  z-index: 9000;
-  position: absolute;
-  padding: 10px;
-  top: 8rem;
-  background-color: grey; }
-
-/* line 205, /Users/Daniela/Desktop/btb/scss/components/nav */
-.donate > .tab-btn {
-  right: 100px; }
-
-/* line 209, /Users/Daniela/Desktop/btb/scss/components/nav */
-.volunteer > .tab-btn {
-  right: 0px; }
-
-/* line 213, /Users/Daniela/Desktop/btb/scss/components/nav */
-.tab-btn:hover .tab {
-  -webkit-transform: translateY(0rem); }
-
-@media only screen and (min-width: 35em) {
-  /* line 219, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .donate > .tab-btn {
-    right: 200px; }
-
-  /* line 223, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .volunteer > .tab-btn {
-    right: 90px; }
- }
-
-@media only screen and (min-width: 60em) {
-  /* line 231, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .donate > .tab-btn {
-    right: 300px; }
-
-  /* line 235, /Users/Daniela/Desktop/btb/scss/components/nav */
-  .volunteer > .tab-btn {
-    right: 190px; }
- }
-
 /* Homepage Nav Animation */
 @media only screen and (min-width: 45em) {
-  /* line 245, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 192, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li {
     -webkit-transform: translateX(0); }
 
-  /* line 249, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 196, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li {
     -webkit-transform: translateX(0);
     -webkit-animation-name: peep;
@@ -1892,84 +1843,181 @@ header {
     -webkit-animation-duration: 1200ms; }
 
   @keyframes peep {
-    /* line 264, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 211, /Users/Daniela/Desktop/btb/scss/components/nav */
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0); }
 
-    /* line 265, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 212, /Users/Daniela/Desktop/btb/scss/components/nav */
     35% {
       -webkit-transform: translateX(8.55rem);
               transform: translateX(8.55rem); }
 
-    /* line 266, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 213, /Users/Daniela/Desktop/btb/scss/components/nav */
     100% {
       -webkit-transform: translateX(0);
               transform: translateX(0); } }
 
   @-webkit-keyframes peep {
-    /* line 270, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 217, /Users/Daniela/Desktop/btb/scss/components/nav */
     0% {
       -webkit-transform: translateX(0);
               transform: translateX(0); }
 
-    /* line 271, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 218, /Users/Daniela/Desktop/btb/scss/components/nav */
     35% {
       -webkit-transform: translateX(8.55rem);
               transform: translateX(8.55rem); }
 
-    /* line 272, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 219, /Users/Daniela/Desktop/btb/scss/components/nav */
     100% {
       -webkit-transform: translateX(0);
               transform: translateX(0); } }
 
-  /* line 275, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 222, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(1) {
     -webkit-animation-delay: 25ms;
     -ms-animation-delay: 25ms;
     animation-delay: 25ms; }
 
-  /* line 279, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 226, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(2) {
     -webkit-animation-delay: 50ms;
     -ms-animation-delay: 50ms;
     animation-delay: 50ms; }
 
-  /* line 283, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 230, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(3) {
     -webkit-animation-delay: 75ms;
     -ms-animation-delay: 75ms;
     animation-delay: 75ms; }
 
-  /* line 287, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 234, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(4) {
     -webkit-animation-delay: 100ms;
     -ms-animation-delay: 100ms;
     animation-delay: 100ms; }
 
-  /* line 291, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 238, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(5) {
     -webkit-animation-delay: 125ms;
     -ms-animation-delay: 125ms;
     animation-delay: 125ms; }
 
-  /* line 295, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 242, /Users/Daniela/Desktop/btb/scss/components/nav */
   .animate li:nth-child(6) {
     -webkit-animation-delay: 150ms;
     -ms-animation-delay: 150ms;
     animation-delay: 150ms; }
 
-  /* line 301, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 248, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list a, .nav-list a:link, .nav-list a:visited {
     text-align: right;
     padding-right: 5.75rem;
     -webkit-transform: translateX(-10.05rem);
     -webkit-transition: all 400ms cubic-bezier(0.69, 0.34, 0.56, 0.96); }
 
-  /* line 309, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 256, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list a:active, .nav-list a:hover {
     -webkit-transform: translateX(-1.5rem); }
  }
+
+/* Tab Content */
+/* line 264, /Users/Daniela/Desktop/btb/scss/components/nav */
+.tab-holder {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+/* line 272, /Users/Daniela/Desktop/btb/scss/components/nav */
+#donate-tab, #volunteer-tab {
+  width: 100%;
+  position: relative;
+  margin-top: -100%;
+  background-color: #fff;
+  transition: all 250ms cubic-bezier(0.6, 0.39, 0.59, 0.85);
+  padding: 1.5rem 3rem 2rem; }
+  @media only screen and (min-width: 70rem) {
+    #donate-tab, #volunteer-tab {
+      padding-left: 5rem; } }
+
+/* line 285, /Users/Daniela/Desktop/btb/scss/components/nav */
+#donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"] {
+  margin-top: 0;
+  z-index: 6000;
+  box-shadow: 0px 2px 10px rgba(15, 21, 30, 0.2); }
+
+/* line 291, /Users/Daniela/Desktop/btb/scss/components/nav */
+.donate-btn, .volunteer-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  display: block;
+  height: 2rem;
+  width: 5rem;
+  position: absolute;
+  bottom: -2rem;
+  right: 1rem;
+  background-color: #f26522;
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  transition: all 150ms ease-in-out; }
+  @media only screen and (min-width: 25em) {
+    .donate-btn, .volunteer-btn {
+      width: 6rem; } }
+  @media only screen and (min-width: 38em) {
+    .donate-btn, .volunteer-btn {
+      width: 8rem; } }
+
+/* line 316, /Users/Daniela/Desktop/btb/scss/components/nav */
+.donate-btn:hover, .volunteer-btn:hover {
+  background-color: #445f88; }
+
+/* line 320, /Users/Daniela/Desktop/btb/scss/components/nav */
+.donate-btn {
+  right: 6rem; }
+  @media only screen and (min-width: 25em) {
+    .donate-btn {
+      right: 8rem; } }
+  @media only screen and (min-width: 38em) {
+    .donate-btn {
+      right: 10.25rem; } }
+
+/* line 330, /Users/Daniela/Desktop/btb/scss/components/nav */
+.right-top {
+  border-top: solid 3px #445f88;
+  margin-top: 1.5rem;
+  padding-top: 1rem; }
+  /* line 334, /Users/Daniela/Desktop/btb/scss/components/nav */
+  .right-top h1 {
+    text-align: left;
+    margin: 0;
+    padding: 0; }
+  /* line 338, /Users/Daniela/Desktop/btb/scss/components/nav */
+  .right-top p {
+    margin: 0;
+    padding: 0; }
+  /* line 341, /Users/Daniela/Desktop/btb/scss/components/nav */
+  .right-top a {
+    text-decoration: none;
+    color: #f26522;
+    border-bottom: 1px solid #f26522;
+    margin: 0;
+    padding: 0;
+    border-bottom: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: block;
+    margin: 0.5rem; }
+  @media only screen and (min-width: 38em) {
+    .right-top {
+      border-left: solid 3px #445f88;
+      padding-left: 3rem;
+      margin: 1rem 0; } }
 
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/footer */
 footer {
@@ -2048,11 +2096,11 @@ footer {
 
 /* line 64, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav a:hover {
-  color: #eb6604; }
+  color: #f26522; }
 
 /* line 68, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav li.tab-current a {
-  color: #eb6604; }
+  color: #f26522; }
 
 /* line 72, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav a:before {
@@ -2198,13 +2246,14 @@ main {
 /* line 36, /Users/Daniela/Desktop/btb/scss/components/main */
 main .button {
   font-size: 0.95em;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 600;
   text-decoration: none;
-  border: solid 2px #eb6604;
+  border: solid 2px #f26522;
   padding: 10px;
   min-width: 9rem;
-  color: #eb6604;
+  color: #f26522;
   margin: 2rem auto;
   background-color: transparent;
   cursor: pointer;
@@ -2215,7 +2264,7 @@ main .button {
   overflow: hidden;
   text-align: center;
   max-width: 17rem; }
-  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  /* line 68, /Users/Daniela/Desktop/btb/scss/mixins */
   main .button:after {
     content: '';
     position: absolute;
@@ -2227,7 +2276,7 @@ main .button {
     height: 0;
     top: 50%;
     left: 50%;
-    background: #eb6604;
+    background: #f26522;
     opacity: 0;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -2256,17 +2305,22 @@ main hr {
   margin: 5rem 0 0rem; }
 
 /* line 79, /Users/Daniela/Desktop/btb/scss/components/main */
+.icon-illus {
+  width: 9rem; }
+
+/* line 83, /Users/Daniela/Desktop/btb/scss/components/main */
 .subscribe {
   display: block;
   width: 100%; }
 
-/* line 84, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 88, /Users/Daniela/Desktop/btb/scss/components/main */
 .subscribe input {
   background-color: transparent;
   display: block;
-  width: 25rem;
+  width: 20rem;
   height: 2.5rem;
   font-size: 0.95em;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 600;
   text-decoration: none;
@@ -2282,16 +2336,20 @@ main hr {
   transition: all 0.3s;
   font-weight: 400;
   padding: 10px; }
-  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  @media only screen and (min-width: 60em) {
+    .subscribe input {
+      width: 25rem; } }
+  /* line 68, /Users/Daniela/Desktop/btb/scss/mixins */
   .subscribe input:after {
     content: '';
     position: absolute;
     z-index: -1;
     transition: all 0.3s; }
 
-/* line 94, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 101, /Users/Daniela/Desktop/btb/scss/components/main */
 .news .subscribe input {
   font-size: 0.95em;
+  font-family: 'Open Sans', sans-serif;
   display: block;
   font-weight: 600;
   text-decoration: none;
@@ -2305,40 +2363,40 @@ main hr {
   outline: none;
   position: relative;
   transition: all 0.3s; }
-  /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+  /* line 68, /Users/Daniela/Desktop/btb/scss/mixins */
   .news .subscribe input:after {
     content: '';
     position: absolute;
     z-index: -1;
     transition: all 0.3s; }
 
-/* line 85, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 86, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input ::-webkit-input-placeholder {
   color: #fff; }
-/* line 88, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 89, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input :-moz-placeholder {
   /* Firefox 18- */
   color: #fff; }
-/* line 91, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 92, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input ::-moz-placeholder {
   /* Firefox 19+ */
   color: #fff; }
-/* line 94, /Users/Daniela/Desktop/btb/scss/mixins */
+/* line 95, /Users/Daniela/Desktop/btb/scss/mixins */
 .subscribe input :-ms-input-placeholder {
   color: #fff; }
 
-/* line 105, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 112, /Users/Daniela/Desktop/btb/scss/components/main */
 .hiddencap {
   margin: 0;
   padding: 0; }
-  /* line 107, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 114, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure {
     margin: 0;
     padding: 0;
     position: relative;
     overflow: hidden;
     margin: 3rem 0 2rem; }
-  /* line 113, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 120, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure figcaption {
     margin: 0;
     padding: 0;
@@ -2351,12 +2409,12 @@ main hr {
     padding: 15% 1.35rem 1rem 1rem;
     opacity: 0;
     transition: all 250ms linear; }
-  /* line 126, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 133, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure:hover figcaption {
     top: 0;
     opacity: 1; }
 
-/* line 133, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 140, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost .top {
   width: 100%;
   border-bottom: 1px solid #0f151e;
@@ -2365,21 +2423,25 @@ main hr {
   margin-top: 4rem;
   padding-top: 1rem;
   position: relative; }
-/* line 142, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 149, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost h2 {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   text-align: left;
   font-weight: 600;
+  letter-spacing: 0;
   margin-top: 0.75rem; }
-/* line 148, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 156, /Users/Daniela/Desktop/btb/scss/components/main */
+.blogpost h2 a {
+  text-decoration: none; }
+/* line 159, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost a {
   text-decoration: none;
-  color: #eb6604;
-  border-bottom: 1px solid #eb6604;
+  color: #f26522;
+  border-bottom: 1px solid #f26522;
   display: inline-block;
   margin-top: 0.75rem; }
 
-/* line 155, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 166, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost .top:before {
   content: '';
   position: absolute;
@@ -2406,14 +2468,16 @@ main hr {
   /* line 13, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner p {
     max-width: 30rem;
-    margin: 1rem auto 0; }
-  /* line 17, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    margin: 1rem auto 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; }
+  /* line 19, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .p_large {
-    font-weight: 600;
-    color: #eb6604; }
-  /* line 21, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    color: #f26522; }
+  /* line 22, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .button {
     font-size: 0.95em;
+    font-family: 'Open Sans', sans-serif;
     display: block;
     font-weight: 600;
     text-decoration: none;
@@ -2428,40 +2492,40 @@ main hr {
     position: relative;
     transition: all 0.3s;
     transition: all 200ms linear; }
-    /* line 67, /Users/Daniela/Desktop/btb/scss/mixins */
+    /* line 68, /Users/Daniela/Desktop/btb/scss/mixins */
     .herobanner .button:after {
       content: '';
       position: absolute;
       z-index: -1;
       transition: all 0.3s; }
-  /* line 25, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 26, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .button:hover {
-    background-color: rgba(235, 102, 4, 0.8); }
-  /* line 28, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    background-color: #f26522; }
+  /* line 29, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .thebuttons:first-child {
     margin-top: 10px; }
-  /* line 31, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 32, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .socialist {
     margin-top: 20px;
     margin-left: 0px; }
-  /* line 35, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 36, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social i {
     color: #fff;
     font-size: 25px;
     display: block;
     margin: 0 10px;
     transition: all 200ms linear; }
-  /* line 42, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 43, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social a span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block;
     display: none; }
-  /* line 46, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 47, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social a:hover i {
-    color: #eb6604; }
-  /* line 49, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    color: #f26522; }
+  /* line 50, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .arrow {
     color: #fff;
     -webkit-animation: bounce 1250ms ease-in;
@@ -2470,104 +2534,104 @@ main hr {
             animation: bounce 1250ms ease-in;
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
-  /* line 58, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 59, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .arrow:focus i, .herobanner .arrow:hover i, .herobanner .arrow:active i {
     -webkit-animation: bounce 1250ms ease;
     animation: bounce 1250ms ease; }
 
 @-webkit-keyframes bounce {
-  /* line 65, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 66, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 71, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 72, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 77, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 78, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 83, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 84, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
 @keyframes bounce {
-  /* line 90, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 91, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 96, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 97, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 102, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 103, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 108, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 109, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
 @media only screen and (min-width: 38em) {
-  /* line 115, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 116, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner {
     padding: 5rem; }
-    /* line 117, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    /* line 118, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
     .herobanner .button {
       margin: 40px 10px 0; }
-    /* line 120, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    /* line 121, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
     .herobanner .socialist {
       margin-top: 40px; }
 
-  /* line 125, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 126, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .homepage {
     padding-top: 9rem; }
  }
 
 /* Background Images */
-/* line 132, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 133, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homepage {
   min-height: 100vh;
   padding-top: 9rem;
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 138, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 139, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .aboutus {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 142, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 143, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .whydothis {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 146, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 147, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 150, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 151, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .news {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
 @media only screen and (min-width: 38em) {
-  /* line 156, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 157, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost h1 {
     padding: 0 15rem;
-    color: #eb6604; }
-  /* line 160, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    color: #f26522; }
+  /* line 161, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost p {
     max-width: 40rem; }
  }
@@ -2593,82 +2657,62 @@ main hr {
   line-height: 1em; }
 
 /* line 27, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-about:before {
+.icon-fb:before {
   content: '\e800'; }
 
 /* '' */
 /* line 28, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-books:before {
+.icon-news-2:before {
   content: '\e801'; }
 
 /* '' */
 /* line 29, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-car:before {
-  content: '\e802'; }
-
-/* '' */
-/* line 30, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-close:before {
-  content: '\e803'; }
-
-/* '' */
-/* line 31, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-mail:before {
+.icon-ig:before {
   content: '\e804'; }
 
 /* '' */
-/* line 32, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-down:before {
+/* line 30, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-tw:before {
   content: '\e805'; }
 
 /* '' */
-/* line 33, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-hamburger:before {
+/* line 31, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-about:before {
   content: '\e806'; }
 
 /* '' */
-/* line 34, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+/* line 32, /Users/Daniela/Desktop/btb/scss/components/btbfont */
 .icon-help:before {
   content: '\e807'; }
 
 /* '' */
-/* line 35, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+/* line 33, /Users/Daniela/Desktop/btb/scss/components/btbfont */
 .icon-home:before {
   content: '\e808'; }
 
 /* '' */
-/* line 36, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-letters:before {
+/* line 34, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-mail:before {
   content: '\e809'; }
 
 /* '' */
-/* line 37, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-library:before {
+/* line 35, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-news:before {
   content: '\e80a'; }
 
 /* '' */
-/* line 38, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-news:before {
+/* line 36, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-why:before {
   content: '\e80b'; }
 
 /* '' */
-/* line 39, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-why:before {
+/* line 37, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-down:before {
   content: '\e80c'; }
 
 /* '' */
-/* line 40, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-fb:before {
+/* line 38, /Users/Daniela/Desktop/btb/scss/components/btbfont */
+.icon-hamburger:before {
   content: '\e80d'; }
 
 /* '' */
-/* line 41, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-tw:before {
-  content: '\e80e'; }
-
-/* '' */
-/* line 42, /Users/Daniela/Desktop/btb/scss/components/btbfont */
-.icon-ig:before {
-  content: '\e80f'; }
-
-/* '' */

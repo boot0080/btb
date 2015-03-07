@@ -49,6 +49,7 @@
 
 @mixin button($color, $margin) {
     font-size: 0.95em;
+    font-family: $opensans;
     display: block;
     font-weight: 600;
     text-decoration: none;

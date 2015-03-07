@@ -76,6 +76,10 @@ main hr {
     margin: 5rem 0 0rem;
 }
 
+.icon-illus {
+    width: 9rem;
+}
+
 .subscribe {
     display: block;
     width: 100%;
@@ -84,7 +88,10 @@ main hr {
 .subscribe input {
     background-color: transparent;
     display: block;
-    width: 25rem;
+    width: 20rem;
+    @media only screen and (min-width: 60em) {
+        width: 25rem;
+    }
     height: 2.5rem;
     @include button($dark, 2rem auto 1rem);
     font-weight: 400;
@@ -140,10 +147,14 @@ main hr {
         position: relative;
     }
     h2 {
-        font-family: 'Open Sans';
+        font-family: $opensans;
         text-align: left;
         font-weight: 600;
+        letter-spacing: 0;
         margin-top: .75rem;
+    }
+    h2 a {
+        text-decoration: none;
     }
     a {
         @include linkreset($orange);

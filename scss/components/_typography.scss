@@ -15,10 +15,10 @@ body, html {
 
 body {
     background-color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'chaparral-pro', sans-serif;
     font-weight: 400;
     line-height: 1.45;
-    color: $dark;
+    color: #716a65;
     box-sizing: border-box;
 }
 
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: .9;
     font-family: 'english', serif;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 h1, .uno {
@@ -88,7 +89,7 @@ small, .font_small {font-size: 0.667em;}
 
 
 main h2 {
-    color: $hovercolor;
+    color: $orange;
 }
 
 .italic {
@@ -107,16 +108,16 @@ ul {
     width: 100%;
 }
 
-.roundit {
-    border-radius: 450px;
-}
-
 .no-margin {
     @include zero;
 }
 
 .no-margin-top {
     margin-top: 0;
+}
+
+.half-margin-top {
+    margin-top: 1.2rem;
 }
 
 .left-align {
