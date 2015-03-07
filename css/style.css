@@ -1699,12 +1699,12 @@ main p a {
   position: absolute;
   top: 0;
   left: 0;
-  background: transparent url('../images/nav-icon.svg') no-repeat center center;
-  background: transparent url('../images/nav-icon.svg') no-repeat center center; }
+  background: #ff4f37 url('../images/nav-icon.svg') no-repeat center center;
+  background: #ff4f37 url('../images/nav-icon.svg') no-repeat center center; }
 
 /* line 25, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-btn:hover, .nav-btn:focus, .nav-btn:active {
-  background-color: #ff4f37; }
+  background-color: #324a71; }
 
 /* line 29, /Users/Daniela/Desktop/btb/scss/components/nav */
 header {
@@ -1715,7 +1715,7 @@ header {
   /* line 34, /Users/Daniela/Desktop/btb/scss/components/nav */
   header .nav-btn {
     margin-top: -40px; }
-  @media only screen and (min-width: 45em) {
+  @media only screen and (min-width: 60em) {
     header {
       margin-top: 0; }
       /* line 39, /Users/Daniela/Desktop/btb/scss/components/nav */
@@ -1735,8 +1735,8 @@ header {
 .nav-list li {
   position: relative;
   background-color: #101010;
-  min-width: 15rem;
-  text-align: left; }
+  text-align: left;
+  max-width: 30rem; }
 
 /* line 61, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-list li:first-child {
@@ -1836,7 +1836,7 @@ header {
   /* line 166, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li {
     background-color: transparent;
-    width: 13.5rem; }
+    min-width: 15rem; }
 
   /* line 171, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li:nth-child(1) {
@@ -1880,7 +1880,7 @@ header {
   opacity: 0.8; }
 
 /* Homepage Nav Animation */
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 60em) {
   /* line 219, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list li {
     -webkit-transform: translateX(0); }

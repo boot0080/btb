@@ -16,14 +16,14 @@
 	position: absolute;
 	top: 0;	
 	left: 0;
-	background: transparent url('../images/nav-icon.svg') no-repeat center center;
-	background: transparent url('../images/nav-icon.svg') no-repeat center center;
+	background: $orange url('../images/nav-icon.svg') no-repeat center center;
+	background: $orange url('../images/nav-icon.svg') no-repeat center center;
 }
 
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color: $orange;
+	background-color: $hovercolor;
 }
 
 header {
@@ -34,7 +34,7 @@ header {
     .nav-btn {
         margin-top: -40px;
     }
-    @media only screen and (min-width: 45em) {
+    @media only screen and (min-width: 60em) {
        margin-top: 0;
        nav {
            margin-top: 0rem;
@@ -54,8 +54,8 @@ header {
 .nav-list li {
     position: relative;
     background-color: $dark;
-    min-width: 15rem;
     text-align: left;
+    max-width: 30rem;
 }
 
 .nav-list li:first-child {
@@ -165,7 +165,7 @@ header {
     
     .nav-list li {
         background-color: transparent;
-        width: 13.5rem;
+        min-width: 15rem;
     }
     
     .nav-list li:nth-child(1) {
@@ -214,7 +214,7 @@ header {
 
 /* Homepage Nav Animation */
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 60em) {
     
     .nav-list li {
         -webkit-transform: translateX(0);
