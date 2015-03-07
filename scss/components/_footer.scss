@@ -13,6 +13,8 @@ footer {
     color: $white;
     padding: 2rem;
     .f-content {
-        @include compensate;
+        @media only screen and (min-width: 60em) {
+            @include compensate;
+        }
     }
 }

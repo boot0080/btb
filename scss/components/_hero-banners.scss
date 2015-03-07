@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     color: $white;
+    padding: 3rem 0;
     h1, p {
         @include zero;
     }
@@ -19,6 +20,9 @@
         @media only screen and (min-width: 38rem) {
             font-size: 6rem;
         }
+        @media only screen and (min-width: 60rem) {
+            overflow: visible;
+        }
     }
     p {
         max-width: 30rem;
@@ -30,7 +34,7 @@
         color: $orange;
     }
     .button {
-        @include button($white, 10px 10px 0);
+        @include topbutton($white, 10px 10px 0);
         @include transitionlinear(200ms)
     }
     .button:hover {

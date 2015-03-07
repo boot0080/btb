@@ -14,12 +14,15 @@ html {
     text-size-adjust: 100%;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+*, *:before, *:after {box-sizing: inherit;}
 
-*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
-body, html { padding: 0; margin: 0;}
+*, *:after, 
+*:before { 
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; }
+
+body, html {padding: 0; margin: 0;}
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
@@ -146,9 +149,7 @@ main hr {
 .blogpost {
     .top {
         width: 100%;
-        border-bottom: 1px solid $dark;
-        padding-bottom: 0.75rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: .75rem;
         margin-top: 4rem;
         padding-top: 1rem;
         position: relative;
@@ -161,7 +162,10 @@ main hr {
         margin-top: .75rem;
     }
     h2 a {
-        text-decoration: none;
+        @include linkreset($body);
+        @include transitionlinear(250ms);
+        &{border-bottom: none;}
+        &:hover {color: $hovercolor;}
     }
     a {
         @include linkreset($orange);

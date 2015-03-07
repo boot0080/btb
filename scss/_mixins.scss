@@ -75,6 +75,33 @@
     }
 }
 
+@mixin topbutton($color, $margin) {
+    font-size: 0.95em;
+    font-family: $opensans;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    border: solid 2px $color;
+    padding: 10px;
+    min-width: 9rem;
+    color: $color;
+    margin: $margin;
+    background-color: transparent;
+	cursor: pointer;
+	outline: none;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    &:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+}
+
 @mixin bgcover($url) {
     background-image: $url;
     background-size: cover;

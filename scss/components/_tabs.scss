@@ -1,37 +1,67 @@
 //Tabs 
 
+.mediabox {
+    border-bottom: 2px solid $body;
+    border-left: 2px solid $body;
+    border-right: 2px solid $body;
+    padding: 1.25rem;
+    margin-top: -8px;
+    @media only screen and (min-width: 32rem) {
+        padding: 4rem 6rem;
+    }
+    h3 {
+        margin-top: 0;
+    }
+}
+
 .tabs {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
     margin-top: 3rem;
+    z-index: 1;
 }
 
 /* Tab Nav */
-.tabs nav {
-	text-align: center;
-}
-
-.tabs nav ul {
-	padding: 0;
-	margin: 0;
-	list-style: none;
-	display: inline-block;
-}
-
-.tabs nav ul li {
-	border: 2px solid $dark;
-	border-bottom: none;
-	margin: 0 0.25em;
-	display: block;
-	float: left;
-	position: relative;
+.tabs {
+    nav {
+        text-align: center;
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            display: inline-block;
+            li {
+                border: 2px solid $body;
+                border-bottom: none;
+                margin: 0 0.25em;
+                display: block;
+                float: left;
+                position: relative;
+            }
+        }
+        a {
+            color: $body;
+            display: block;
+            line-height: 2.5;
+            padding: 0 1.25em;
+            white-space: nowrap;
+            text-decoration: none;
+            transition: color 200ms linear;
+            &:hover {color: $orange;}
+            @media only screen and (min-width: 60em) {
+                padding: 0 .5em;
+            }
+            @media only screen and (min-width: 76.5625em) {
+                padding: 0 1.25em;
+            }
+        }
+    }
 }
 
 .tabs nav li.tab-current {
-	border: 2px solid $dark;
+	border: 2px solid $body;
 	border-bottom: none;
-	z-index: 100;
 }
 
 .tabs nav li.tab-current:before,
@@ -42,27 +72,13 @@
 	right: 100%;
 	bottom: 0;
 	width: 1000px;
-	background: $dark;
+	background: $body;
 }
 
 .tabs nav li.tab-current:after {
 	right: auto;
 	left: 100%;
 	width: 4000px;
-}
-
-.tabs nav a {
-	color: $dark;
-	display: block;
-	line-height: 2.5;
-	padding: 0 1.25em;
-	white-space: nowrap;
-    text-decoration: none;
-    transition: color 200ms linear;
-}
-
-.tabs nav a:hover {
-	color: $orange;
 }
 
 .tabs nav li.tab-current a {
@@ -80,6 +96,9 @@
 	speak: none;
 	-webkit-font-smoothing: antialiased;
 	margin: -0.25em 0.4em 0 0;
+    @media only screen and (min-width: 52.375em) {
+        display: none;
+    }
 }
 
 /* Tab Content */
@@ -102,7 +121,7 @@
 .no-js .content section {
 	display: block;
 	padding-bottom: 2em;
-	border-bottom: 1px solid #47a3da;
+	border-bottom: 1px solid $body;
 }
 
 .content section.content-current {
@@ -111,7 +130,7 @@
 
 /* Tab media queries */
 
-@media screen and (max-width: 52.375em) {
+@media only screen and (max-width: 52.375em) {
 	.tabs nav a span {
 		display: none;
 	}
@@ -122,37 +141,12 @@
 
 }
 
-@media screen and (max-width: 32em) {
-	.tabs nav ul,
-	.tabs nav ul li a {
-		width: 100%;
-		padding: 0;
-	}
+@media only screen and (max-width: 32em) {
 
 	.tabs nav ul li {
 		width: 16.666%;
 		width: calc(16.666% + 1px);
-		margin: 0 0 0 -1px;
+		margin: 0 0 0 -2px;
 	}
 
-	.tabs nav ul li:last-child {
-		border-right: none;
-	}
-
-}
-
-@media screen and (min-width: 32rem) {
-    
-    .mediabox {
-        margin-top: -6px;
-        padding: 4rem 6rem;
-        border-bottom: 2px solid $dark;
-        border-left: 2px solid $dark;
-        border-right: 2px solid $dark;
-    }
-    
-    .mediabox h3 {
-        margin-top: 0;
-    }
-    
 }
