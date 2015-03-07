@@ -135,11 +135,8 @@ main hr {
     @include button($white, 2rem auto 1rem);
 }
 
-.subscribe input{
-    @include placeholder($white) {
-        color: $white;
-        opacity: 1;
-    }
+.placeholder{
+    @include placeholder($white);
 }
 
 .hiddencap {
@@ -176,6 +173,7 @@ main hr {
         margin-top: 4rem;
         padding-top: 1rem;
         position: relative;
+        text-align: left;
     }
     h2 {
         font-family: $opensans;

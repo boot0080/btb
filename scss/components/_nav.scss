@@ -329,18 +329,6 @@ header {
             padding: .65rem 3rem 0 12rem;
         }
     }
-    .small-show {
-        display: block;
-        @media only screen and (min-width: 38em) {
-            display: none;
-        }
-    }
-    .big-show {
-        display: none;
-        @media only screen and (min-width: 38em) {
-            display: block;
-        }
-    }
 }
 
 .right-top {

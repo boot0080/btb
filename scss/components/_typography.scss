@@ -74,7 +74,7 @@ small, .font_small {font-size: 0.667em;}
     
     p, main ul  {font-size: 1.05em}
 
-    small, .font_small {font-size: 0.667em;}
+    small, .font_small {font-size: 0.867em;}
 }
 
 .pull_quote {
@@ -86,7 +86,6 @@ small, .font_small {font-size: 0.667em;}
     border-top: 2px solid $dark;
     border-bottom: 2px solid $dark;
 }
-
 
 main h2 {
     color: $orange;
@@ -104,12 +103,6 @@ img+.caption {text-align: right;}
 
 ul {
     margin-left: 1.05rem;
-}
-
-.flex-img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
 }
 
 .no-margin {

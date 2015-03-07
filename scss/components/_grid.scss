@@ -1462,3 +1462,23 @@
 .push-top-2 {
     margin-top: 4rem;
 }
+
+.flex-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.small-show {
+    display: block;
+    @media only screen and (min-width: 38em) {
+        display: none;
+    }
+}
+
+.big-show {
+    display: none;
+    @media only screen and (min-width: 38em) {
+        display: block;
+    }
+}
