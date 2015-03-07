@@ -1,9 +1,7 @@
 //Tabs 
 
 .mediabox {
-    border-bottom: 2px solid $body;
-    border-left: 2px solid $body;
-    border-right: 2px solid $body;
+    border: 2px solid $body;
     padding: 1.25rem;
     margin-top: -8px;
     @media only screen and (min-width: 32rem) {
@@ -15,7 +13,6 @@
 }
 
 .tabs {
-	position: relative;
 	width: 100%;
 	overflow: hidden;
     margin-top: 3rem;
@@ -37,7 +34,6 @@
                 margin: 0 0.25em;
                 display: block;
                 float: left;
-                position: relative;
             }
         }
         a {
@@ -62,17 +58,6 @@
 .tabs nav li.tab-current {
 	border: 2px solid $body;
 	border-bottom: none;
-}
-
-.tabs nav li.tab-current:before,
-.tabs nav li.tab-current:after {
-	content: '';
-	position: absolute;
-	height: 2px;
-	right: 100%;
-	bottom: 0;
-	width: 1000px;
-	background: $body;
 }
 
 .tabs nav li.tab-current:after {
