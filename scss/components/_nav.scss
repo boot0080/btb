@@ -274,6 +274,7 @@ header {
     position: relative;
     margin-top: -100%;
     background-color: $white;
+    padding: 1.25rem 1.5rem 2rem;
     -webkit-transition: all 250ms cubic-bezier(.6,.39,.59,.85);
     transition: all 250ms cubic-bezier(.6,.39,.59,.85);
     @media only screen and (min-width: 25em) {
