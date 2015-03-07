@@ -1968,35 +1968,44 @@ header {
   @media only screen and (min-width: 38em) {
     #donate-tab, #volunteer-tab {
       padding: 3rem 3rem 2rem; } }
+  @media only screen and (min-width: 60rem) {
+    #donate-tab, #volunteer-tab {
+      padding: 4rem 3rem 6rem; } }
 
-/* line 317, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 318, /Users/Daniela/Desktop/btb/scss/components/nav */
 .left-top p {
   margin: 0;
   padding: 0; }
   @media only screen and (min-width: 38em) {
     .left-top p {
       padding: 0.65rem 2rem 0 0; } }
-/* line 323, /Users/Daniela/Desktop/btb/scss/components/nav */
+  @media only screen and (min-width: 60rem) {
+    .left-top p {
+      padding: 0.65rem 3rem 0 6rem; } }
+  @media only screen and (min-width: 70rem) {
+    .left-top p {
+      padding: 0.65rem 3rem 0 12rem; } }
+/* line 330, /Users/Daniela/Desktop/btb/scss/components/nav */
 .left-top .small-show {
   display: block; }
   @media only screen and (min-width: 38em) {
     .left-top .small-show {
       display: none; } }
-/* line 329, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 336, /Users/Daniela/Desktop/btb/scss/components/nav */
 .left-top .big-show {
   display: none; }
   @media only screen and (min-width: 38em) {
     .left-top .big-show {
       display: block; } }
 
-/* line 337, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 344, /Users/Daniela/Desktop/btb/scss/components/nav */
 .right-top {
   margin-top: 0.25rem; }
   @media only screen and (min-width: 38em) {
     .right-top {
       border-left: solid 3px #445f88;
       padding-left: 2rem; } }
-  /* line 343, /Users/Daniela/Desktop/btb/scss/components/nav */
+  /* line 350, /Users/Daniela/Desktop/btb/scss/components/nav */
   .right-top a {
     text-decoration: none;
     color: #f75423;
@@ -2013,11 +2022,11 @@ header {
     @media only screen and (min-width: 38em) {
       .right-top a {
         font-size: 1rem; } }
-    /* line 356, /Users/Daniela/Desktop/btb/scss/components/nav */
+    /* line 363, /Users/Daniela/Desktop/btb/scss/components/nav */
     .right-top a:hover {
       color: #445f88; }
 
-/* line 362, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 369, /Users/Daniela/Desktop/btb/scss/components/nav */
 #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"] {
   margin-top: 0;
   box-shadow: 0px 2px 10px rgba(15, 21, 30, 0.2); }
@@ -2025,7 +2034,7 @@ header {
     #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"] {
       z-index: 6000; } }
 
-/* line 370, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 377, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn, .volunteer-btn {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -2050,11 +2059,11 @@ header {
     .donate-btn, .volunteer-btn {
       right: 2rem; } }
 
-/* line 396, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 403, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn:hover, .volunteer-btn:hover {
   background-color: #445f88; }
 
-/* line 400, /Users/Daniela/Desktop/btb/scss/components/nav */
+/* line 407, /Users/Daniela/Desktop/btb/scss/components/nav */
 .donate-btn {
   right: 6rem; }
   @media only screen and (min-width: 21.75em) {
@@ -2084,12 +2093,6 @@ footer {
   text-align: center;
   color: #fff;
   padding: 2rem; }
-  @media only screen and (min-width: 60em) {
-    footer .f-content {
-      overflow-x: hidden;
-      -webkit-transform: translate(2.5625rem, 0);
-      -ms-transform: translate(2.5625rem, 0);
-      transform: translate(2.5625rem, 0); } }
 
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .mediabox {
@@ -2529,27 +2532,31 @@ main hr {
     margin: 0;
     padding: 0; }
   @media only screen and (min-width: 60rem) {
-    .herobanner h1, .herobanner p, .herobanner form {
-      overflow-x: hidden;
-      -webkit-transform: translate(2.5625rem, 0);
-      -ms-transform: translate(2.5625rem, 0);
-      transform: translate(2.5625rem, 0); } }
+    .herobanner h1, .herobanner p, .herobanner form, .herobanner .homenavtop {
+      /*overflow-x: hidden;
+    -webkit-transform: translate(2.5625rem,0);
+    -moz-transform: translate(2.5625rem,0);
+    -ms-transform: translate(2.5625rem,0);
+    -o-transform: translate(2.5625rem,0);
+            transform: translate(2.5625rem,0);*/
+      z-index: 0; } }
   @media only screen and (min-width: 38rem) {
     .herobanner h1 {
       font-size: 6rem; } }
   @media only screen and (min-width: 60rem) {
     .herobanner h1 {
-      overflow: visible; } }
-  /* line 27, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+      overflow: visible;
+      margin-left: 2.5625rem; } }
+  /* line 29, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner p {
     max-width: 30rem;
     margin: 1rem auto 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600; }
-  /* line 33, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 35, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .p_large {
     color: #f75423; }
-  /* line 36, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 38, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .button {
     font-size: 0.95em;
     font-family: 'Open Sans', sans-serif;
@@ -2572,34 +2579,34 @@ main hr {
       position: absolute;
       z-index: -1;
       transition: all 0.3s; }
-  /* line 40, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 42, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .button:hover {
     background-color: #f75423; }
-  /* line 43, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 45, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .thebuttons:first-child {
     margin-top: 10px; }
-  /* line 46, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 48, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .socialist {
     margin-top: 20px;
     margin-left: 0px; }
-  /* line 50, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 52, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social i {
     color: #fff;
     font-size: 25px;
     display: block;
     margin: 0 10px;
     transition: all 200ms linear; }
-  /* line 57, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 59, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social a span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block;
     display: none; }
-  /* line 61, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 63, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .social a:hover i {
     color: #f75423; }
-  /* line 64, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 66, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .arrow {
     color: #fff;
     -webkit-animation: bounce 1250ms ease-in;
@@ -2608,104 +2615,104 @@ main hr {
             animation: bounce 1250ms ease-in;
     -webkit-animation-delay: 1s;
             animation-delay: 1s; }
-  /* line 73, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 75, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .arrow:focus i, .herobanner .arrow:hover i, .herobanner .arrow:active i {
     -webkit-animation: bounce 1250ms ease;
     animation: bounce 1250ms ease; }
 
 @-webkit-keyframes bounce {
-  /* line 80, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 82, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 86, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 88, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 92, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 94, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 98, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 100, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
 @keyframes bounce {
-  /* line 105, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 107, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 111, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 113, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 117, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 119, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 123, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 125, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
 @media only screen and (min-width: 38em) {
-  /* line 130, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 132, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner {
     padding: 5rem; }
-    /* line 132, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    /* line 134, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
     .herobanner .button {
       margin: 40px 10px 0; }
-    /* line 135, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+    /* line 137, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
     .herobanner .socialist {
       margin-top: 40px; }
 
-  /* line 140, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 142, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .homepage {
     padding-top: 9rem; }
  }
 
 /* Background Images */
-/* line 147, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 149, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homepage {
   min-height: 100vh;
   padding-top: 9rem;
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 153, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 155, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .aboutus {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 157, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 159, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .whydothis {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 161, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 163, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 165, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 167, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .news {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
 @media only screen and (min-width: 38em) {
-  /* line 171, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 173, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost h1 {
     padding: 0 15rem;
     color: #f75423; }
-  /* line 175, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 177, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost p {
     max-width: 40rem; }
  }

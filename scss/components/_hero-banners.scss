@@ -11,9 +11,10 @@
     h1, p {
         @include zero;
     }
-    h1, p, form {
+    h1, p, form, .homenavtop {
         @media only screen and (min-width: 60rem) {
             @include compensate;
+            z-index: 0;
         }
     }
     h1 {
@@ -22,6 +23,7 @@
         }
         @media only screen and (min-width: 60rem) {
             overflow: visible;
+            margin-left: 2.5625rem;
         }
     }
     p {

@@ -310,6 +310,7 @@ header {
         padding: 3rem 3rem 2rem;
     }
     @media only screen and (min-width: 60rem) {
+        padding: 4rem 3rem 6rem;
     }
 }
 
@@ -318,6 +319,12 @@ header {
         @include zero;
         @media only screen and (min-width: 38em) {
             padding: .65rem 2rem 0 0;
+        }
+        @media only screen and (min-width: 60rem) {
+            padding: .65rem 3rem 0 6rem;
+        }
+        @media only screen and (min-width: 70rem) {
+            padding: .65rem 3rem 0 12rem;
         }
     }
     .small-show {
