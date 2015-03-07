@@ -16,7 +16,8 @@
 	position: absolute;
 	top: 0;	
 	left: 0;
-	background: grey url('../images/nav-icon.svg') no-repeat center center;
+	background: transparent url('../images/nav-icon.svg') no-repeat center center;
+	background: transparent url('../images/nav-icon.svg') no-repeat center center;
 }
 
 .nav-btn:hover,
@@ -29,6 +30,19 @@ header {
     width: 100%;
     position: fixed;
     z-index: 8000;
+    margin-top: 40px;
+    .nav-btn {
+        margin-top: -40px;
+    }
+    @media only screen and (min-width: 45em) {
+       margin-top: 0;
+       nav {
+           margin-top: 0rem;
+       }
+        .nav-btn {
+            margin-top: 0
+        }
+    }
 }
 
 .nav-list {
@@ -76,6 +90,12 @@ header {
     background-color: $hovercolor;
 }
 
+.nav-list a, 
+.nav-list a:hover,
+.nav-list a:active{
+    background-color: lighten($hovercolor,20%);
+}
+
 /* Toggle Nav*/
 
 .nav-top {
@@ -100,7 +120,7 @@ header {
     display: none;
 }
 	
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 60em) {
 	
     .nav-btn,
     .nav-btn:link,
@@ -121,6 +141,12 @@ header {
         width: 14.5rem;
         height: 100%;
         background-color: transparent;
+    }
+    
+    .nav-list a, 
+    .nav-list a:hover,
+    .nav-list a:active{
+        background-color: $hovercolor;
     }
     
     .fakewrap {
@@ -156,10 +182,18 @@ header {
 
 .socialmedia {
     position: fixed;
-    top: 0;
-    left: 40px;
+    top: 6px;
+    left: 30px;
     z-index: 9000;
     list-style-type: none;
+    display: none;
+    @media only screen and (min-width: 21.75em) {
+        display: block;
+    }
+    @media only screen and (min-width: 60em) {
+        left: 75px;
+        top: 10px;
+    }
 }
 
 .socialmedia li {
@@ -173,15 +207,6 @@ header {
 .socialmedia li i {
     font-size: 150%;
     color: $hovercolor;
-}
-
-@media only screen and (min-width: 45em) {
-    
-    .socialmedia {
-        left: 75px;
-        top: 10px;
-    }
-    
 }
 
 
@@ -263,7 +288,7 @@ header {
 
 .tab-holder {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top:0;
     left: 0;
     right: 0;
@@ -273,24 +298,73 @@ header {
     width: 100%;
     position: relative;
     margin-top: -100%;
+    padding: 0 0.1rem;
     background-color: $white;
-    padding: 1.25rem 1.5rem 2rem;
+    z-index: 10000;
     -webkit-transition: all 250ms cubic-bezier(.6,.39,.59,.85);
     transition: all 250ms cubic-bezier(.6,.39,.59,.85);
     @media only screen and (min-width: 25em) {
         padding: 1.5rem 1.5rem 2rem;
     }
     @media only screen and (min-width: 38em) {
-        padding: 1.5rem 3rem 2rem;
+        padding: 3rem 3rem 2rem;
     }
     @media only screen and (min-width: 60rem) {
     }
 }
 
+.left-top {
+    p {
+        @include zero;
+        @media only screen and (min-width: 38em) {
+            padding: .65rem 2rem 0 0;
+        }
+    }
+    .small-show {
+        display: block;
+        @media only screen and (min-width: 38em) {
+            display: none;
+        }
+    }
+    .big-show {
+        display: none;
+        @media only screen and (min-width: 38em) {
+            display: block;
+        }
+    }
+}
+
+.right-top {
+    margin-top: .25rem;
+    @media only screen and (min-width: 38em) {
+        border-left: solid 3px $hovercolor;
+        padding-left: 2rem;
+    }
+    a {
+        @include linkreset($orange);
+        @include zero;
+        border-bottom: none;
+        font-family: $opensans;
+        font-weight: 600;
+        font-size: .7rem;
+        display: block;
+        margin: 0.5rem 0;
+        @include transitionlinear(150ms);
+        @media only screen and (min-width: 38em) {
+            font-size: 1rem;
+        }
+        &:hover {
+            color: $hovercolor;  
+        }
+    }
+}
+
 #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"]{
     margin-top:0;
-    z-index: 6000;
     box-shadow: 0px 2px 10px rgba(15, 21, 30, .2);
+    @media only screen and (min-width: 38em) {
+        z-index: 6000;
+    }
 }
 
 .donate-btn, .volunteer-btn {
@@ -300,21 +374,22 @@ header {
     text-decoration: none;
     display: block;
     height: 2rem;
+    z-index: 9999;
     width: 5rem;
     position: absolute;
     bottom: -2rem;
-    right: 1rem;
+    right: .75rem;
     background-color: $orange;
     text-align: center;
     color: $white;
     padding-top: 5px;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
-    @media only screen and (min-width: 25em) {
-        width: 6rem;
-    }
     @media only screen and (min-width: 38em) {
         width: 8rem;
+    }
+    @media only screen and (min-width: 75em) {
+        right: 2rem;
     }
 }
 
@@ -324,37 +399,13 @@ header {
 
 .donate-btn {
     right: 6rem;
-    @media only screen and (min-width: 25em) {
-        right: 8rem;
+    @media only screen and (min-width: 21.75em) {
+        right: 6.5rem;
     }
     @media only screen and (min-width: 38em) {
-        right: 10.25rem;
+        right: 9rem;
     }
-}
-
-.right-top {
-    border-top: solid 3px $hovercolor;
-    margin-top: 1.5rem;
-    padding-top: 1rem;
-    h1 {
-        text-align: left;
-        @include zero;
-    }
-    p {
-        @include zero;
-    }
-    a {
-        @include linkreset($orange);
-        @include zero;
-        border-bottom: none;
-        font-family: $opensans;
-        font-weight: 600;
-        display: block;
-        margin: 0.5rem;
-    }
-    @media only screen and (min-width: 38em) {
-        border-left: solid 3px $hovercolor;
-        padding-left: 3rem;
-        margin: 1rem 0;
+    @media only screen and (min-width: 75em) {
+        right: 11rem;
     }
 }

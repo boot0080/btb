@@ -3,10 +3,16 @@
 footer {
     @include zero;
     @include bgcover(url(http://ariahboots.ca/btb/images/hero-bg.jpg));
+    overflow-y: auto;
+    overflow-x: hidden;
     text-align: center;
     background-color: $dark;
+    overflow: hidden;
     bottom: 0;
     text-align: center;
     color: $white;
     padding: 2rem;
+    .f-content {
+        @include compensate;
+    }
 }

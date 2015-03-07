@@ -1,14 +1,24 @@
 .herobanner {
     width: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 5rem 1rem;
     color: $white;
     h1, p {
         @include zero;
+    }
+    h1, p, form {
+        @media only screen and (min-width: 60rem) {
+            @include compensate;
+        }
+    }
+    h1 {
+        @media only screen and (min-width: 38rem) {
+            font-size: 6rem;
+        }
     }
     p {
         max-width: 30rem;
