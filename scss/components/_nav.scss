@@ -209,8 +209,13 @@ header {
     font-size: 150%;
     color: $hovercolor;
     opacity: .8;
+    -webkit-transition: all 200ms cubic-bezier(.69,.34,.56,.96);
+    transition: all 200ms cubic-bezier(.69,.34,.56,.96);
+    &:hover {
+        color: $orange;
+        opacity: 1;
+    }
 }
-
 
 /* Homepage Nav Animation */
 
