@@ -246,6 +246,7 @@ main hr {
 .pagination {
     a {
         @include button($orange, 0 10px);
+        & {min-width: 3rem;}
         font-size: .85rem;
     }
     -webkit-transform: translateX(-13px);
