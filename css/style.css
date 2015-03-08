@@ -3189,6 +3189,7 @@ main hr {
 .overlay {
   width: 100%;
   padding: 3rem 2rem 5rem;
+  background-color: #324a71;
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3199,11 +3200,11 @@ main hr {
   @media only screen and (min-width: 38em) {
     .overlay {
       padding: 3rem 8rem 6rem; } }
-  /* line 18, /Users/Daniela/Desktop/btb/scss/components/overlays */
+  /* line 19, /Users/Daniela/Desktop/btb/scss/components/overlays */
   .overlay h3 {
     color: #fff;
     margin-top: none; }
-  /* line 23, /Users/Daniela/Desktop/btb/scss/components/overlays */
+  /* line 24, /Users/Daniela/Desktop/btb/scss/components/overlays */
   .overlay p {
     max-width: 26rem;
     margin-left: auto;
@@ -3216,18 +3217,14 @@ main hr {
   .overlay-2-col {
     padding: 3rem 20rem 5rem; } }
 
-/* line 40, /Users/Daniela/Desktop/btb/scss/components/overlays */
-.overlay {
-  background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
-
-/* line 44, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 41, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-homepage {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg); }
 
-/* line 48, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 45, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-aboutus {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
 
-/* line 52, /Users/Daniela/Desktop/btb/scss/components/overlays */
-.overlay-whydothis {
+/* line 49, /Users/Daniela/Desktop/btb/scss/components/overlays */
+.overlay-whydothis, .overlay-helpout {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-whydothis.jpg); }

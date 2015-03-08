@@ -1,6 +1,7 @@
 .overlay {
     width: 100%;
     padding: 3rem 2rem 5rem;
+    background-color: $hovercolor;
     color: $white;
     
     background-size: cover;
@@ -37,10 +38,6 @@
     }
 }
 
-.overlay {
-    background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg);
-}
-
 .overlay-homepage {
     background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg);
 }
@@ -49,6 +46,6 @@
     background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg);
 }
 
-.overlay-whydothis {
+.overlay-whydothis, .overlay-helpout {
     background-image: url(http://ariahboots.ca/btb/images/btb-overlay-whydothis.jpg);
 }
