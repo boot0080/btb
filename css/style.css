@@ -2703,31 +2703,39 @@ main hr {
   .hiddencap figure figcaption {
     margin: 0;
     padding: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ff4f37;
+    border-radius: 560px;
     position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    padding: 2rem;
     opacity: 0;
-    transition: all 250ms linear; }
-    /* line 172, /Users/Daniela/Desktop/btb/scss/components/main */
+    transition: all 250ms linear;
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+        transform: scale(0, 0); }
+    /* line 177, /Users/Daniela/Desktop/btb/scss/components/main */
     .hiddencap figure figcaption p {
+      color: #fff;
       margin-top: 50%;
       -webkit-transform: translateY(-50%); }
       @media only screen and (min-width: 38em) {
         .hiddencap figure figcaption p {
           padding: 0 5%; } }
-  /* line 180, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 186, /Users/Daniela/Desktop/btb/scss/components/main */
   .hiddencap figure:hover figcaption {
-    top: 0;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+        transform: scale(1, 1);
     opacity: 1; }
 
-/* line 186, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 194, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost {
   max-width: 40rem;
   margin: 0 auto; }
-  /* line 189, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 197, /Users/Daniela/Desktop/btb/scss/components/main */
   .blogpost .top {
     width: 100%;
     margin-bottom: 0.875rem;
@@ -2735,7 +2743,7 @@ main hr {
     padding-top: 1.25rem;
     position: relative;
     text-align: left; }
-  /* line 197, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 205, /Users/Daniela/Desktop/btb/scss/components/main */
   .blogpost h2 {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
@@ -2743,19 +2751,19 @@ main hr {
     line-height: 1.1;
     letter-spacing: 0;
     margin-top: 0.75rem; }
-  /* line 205, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 213, /Users/Daniela/Desktop/btb/scss/components/main */
   .blogpost h2 a {
     text-decoration: none;
     color: #716a65;
     border-bottom: 1px solid #716a65;
     transition: all 250ms linear; }
-    /* line 208, /Users/Daniela/Desktop/btb/scss/components/main */
+    /* line 216, /Users/Daniela/Desktop/btb/scss/components/main */
     .blogpost h2 a {
       border-bottom: none; }
-    /* line 209, /Users/Daniela/Desktop/btb/scss/components/main */
+    /* line 217, /Users/Daniela/Desktop/btb/scss/components/main */
     .blogpost h2 a:hover {
       color: #324a71; }
-  /* line 211, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 219, /Users/Daniela/Desktop/btb/scss/components/main */
   .blogpost a {
     text-decoration: none;
     color: #ff4f37;
@@ -2763,15 +2771,15 @@ main hr {
     display: inline-block;
     margin-top: 0.75rem; }
 
-/* line 219, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 227, /Users/Daniela/Desktop/btb/scss/components/main */
 .singleblogpost p {
   text-align: left; }
-/* line 222, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 230, /Users/Daniela/Desktop/btb/scss/components/main */
 .singleblogpost img {
   margin-top: 2rem;
   margin-bottom: 2rem; }
 
-/* line 228, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 236, /Users/Daniela/Desktop/btb/scss/components/main */
 .blogpost .top:before {
   content: '';
   position: absolute;
@@ -2781,12 +2789,12 @@ main hr {
   left: 0;
   width: 52px; }
 
-/* line 238, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 246, /Users/Daniela/Desktop/btb/scss/components/main */
 .pagination {
   -webkit-transform: translateX(-13px);
   -ms-transform: translateX(-13px);
       transform: translateX(-13px); }
-  /* line 239, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 247, /Users/Daniela/Desktop/btb/scss/components/main */
   .pagination a {
     font-size: 0.95em;
     font-family: 'Open Sans', sans-serif;
@@ -2836,12 +2844,12 @@ main hr {
       height: 110%;
       opacity: 1; }
 
-/* line 247, /Users/Daniela/Desktop/btb/scss/components/main */
+/* line 255, /Users/Daniela/Desktop/btb/scss/components/main */
 .blog-nav {
   -webkit-transform: translateX(-13px);
   -ms-transform: translateX(-13px);
       transform: translateX(-13px); }
-  /* line 248, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 256, /Users/Daniela/Desktop/btb/scss/components/main */
   .blog-nav a {
     font-size: 0.95em;
     font-family: 'Open Sans', sans-serif;
@@ -2890,7 +2898,7 @@ main hr {
     .blog-nav a:active:after {
       height: 110%;
       opacity: 1; }
-  /* line 254, /Users/Daniela/Desktop/btb/scss/components/main */
+  /* line 262, /Users/Daniela/Desktop/btb/scss/components/main */
   .blog-nav .shorter {
     min-width: 3rem; }
 
