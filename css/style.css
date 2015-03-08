@@ -3221,9 +3221,13 @@ main hr {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
 
 /* line 44, /Users/Daniela/Desktop/btb/scss/components/overlays */
+.overlay-homepage {
+  background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg); }
+
+/* line 48, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-aboutus {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
 
-/* line 48, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 52, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-whydothis {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-whydothis.jpg); }
