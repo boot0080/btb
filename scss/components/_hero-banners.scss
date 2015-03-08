@@ -11,26 +11,41 @@
     h1, p {
         @include zero;
     }
+    p {
+        max-width: 30rem;
+        margin: 1rem auto 0;
+        font-weight: 600;
+        font-family: $opensans;
+    }
+    .p_large {
+        color: $orange;
+    }
     h1 {
         @media only screen and (min-width: 38rem) {
             font-size: 6rem;
         }
     }
-    p {
+}
+
+.hm-herobanner {
+    .make-english {
+        font-family: $english;
+    }
+    h1 {
+        font-size: .95rem;
+        @media only screen and (min-width: 38em) {
+            font-size: 1.05rem;
+        }
+        letter-spacing: 0;
+        font-family: $opensans;
         max-width: 30rem;
         margin: 1rem auto 0;
-        font-family: $opensans;
         font-weight: 600;
+        line-height: 1.35;
     }
-    .p_large {
-        color: $orange;
-    }
-   /* .thebuttons:first-child {
-        margin-top: 10px;
-    }*/
     .socialist {
-        margin-top: 20px;
         margin-left: 0px;
+        margin-top: 10px;
     }
     .social i {
         color: $white;
@@ -48,6 +63,7 @@
     }
     .arrow {
         color: $white;
+        font-size: .875rem;
         -webkit-animation: bounce 1250ms ease-in;
         -webkit-animation-delay: 1s;
         animation: bounce 1250ms ease-in;
@@ -115,7 +131,7 @@
     .herobanner {
         padding: 5rem;
         .socialist {
-            margin-top: 40px;
+            margin-top: 20px;
         }
     }
     
@@ -128,8 +144,13 @@
 
 .homepage {
     min-height: 100vh;
-    padding-top: 9rem;
+    padding-top: 5rem;
     background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+}
+
+.intro-image {
+    width: 90%;
+    max-width: 42rem;
 }
 
 .aboutus {
@@ -177,9 +198,19 @@
 .homenavtop {
     .button-white {
         &:hover{color: $orange;}
-        &{
-            margin: 2.5rem 10px 0;
-            min-width: 9rem;
+        & {
+            margin: .5rem 5px 0;
+            min-width: 8rem;
+            @media only screen and (min-width: 38em) {
+                margin: 2.25rem 10px 0;
+                min-width: 9rem;
+            }
+        }
+    }
+    .button-1 {
+        margin-top: 1.5rem;
+        @media only screen and (min-width: 38em) {
+            margin-top: 2.25rem;
         }
     }
 
