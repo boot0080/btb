@@ -1,5 +1,24 @@
 /* Tabs */
 
+.navtop-hid {
+	opacity: 0;
+}
+
+.js-navtop-fade {
+	-webkit-animation: navtop-fade 400ms linear forwards;
+    animation: navtop-fade 400ms linear forwards;
+}
+
+@-webkit-keyframes navtop-fade {
+	0% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
+}
+
 .tab-holder {
     width: 100%;
     position: fixed;

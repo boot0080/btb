@@ -2017,6 +2017,24 @@ header {
 
 /* Tabs */
 /* line 3, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+.navtop-hid {
+  opacity: 0; }
+
+/* line 7, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+.js-navtop-fade {
+  -webkit-animation: navtop-fade 400ms linear forwards;
+  animation: navtop-fade 400ms linear forwards; }
+
+@-webkit-keyframes navtop-fade {
+  /* line 13, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+  0% {
+    opacity: 0; }
+
+  /* line 17, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+  100% {
+    opacity: 1; } }
+
+/* line 22, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .tab-holder {
   width: 100%;
   position: fixed;
@@ -2028,7 +2046,7 @@ header {
     .tab-holder {
       z-index: 6000; } }
 
-/* line 15, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 34, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 #donate-tab, #volunteer-tab {
   width: 100%;
   position: relative;
@@ -2046,7 +2064,7 @@ header {
     #donate-tab, #volunteer-tab {
       padding: 4rem 3rem 6rem; } }
 
-/* line 35, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 54, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .left-top p {
   margin: 0;
   padding: 0;
@@ -2062,14 +2080,14 @@ header {
     .left-top p {
       padding: 0.65rem 5rem 0 14rem; } }
 
-/* line 51, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 70, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .right-top {
   margin-top: 0.25rem; }
   @media only screen and (min-width: 38em) {
     .right-top {
       border-left: solid 3px #324a71;
       padding-left: 2rem; } }
-  /* line 57, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+  /* line 76, /Users/Daniela/Desktop/btb/scss/components/toptabs */
   .right-top a {
     text-decoration: none;
     color: #ff4f37;
@@ -2087,16 +2105,16 @@ header {
     @media only screen and (min-width: 38em) {
       .right-top a {
         font-size: 1rem; } }
-    /* line 71, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+    /* line 90, /Users/Daniela/Desktop/btb/scss/components/toptabs */
     .right-top a:hover {
       color: #324a71; }
 
-/* line 77, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 96, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"] {
   margin-top: 0;
   box-shadow: 0px 2px 10px rgba(15, 21, 30, 0.2); }
 
-/* line 82, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 101, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .donate-btn, .volunteer-btn {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -2121,11 +2139,11 @@ header {
     .donate-btn, .volunteer-btn {
       right: 2rem; } }
 
-/* line 108, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 127, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .donate-btn:hover, .volunteer-btn:hover {
   background-color: #324a71; }
 
-/* line 112, /Users/Daniela/Desktop/btb/scss/components/toptabs */
+/* line 131, /Users/Daniela/Desktop/btb/scss/components/toptabs */
 .donate-btn {
   right: 6rem; }
   @media only screen and (min-width: 21.75em) {
