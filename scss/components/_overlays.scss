@@ -1,0 +1,42 @@
+.overlay {
+    width: 100%;
+    padding: 3rem 2rem 5rem;
+    color: $white;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    @media only screen and (min-width: 18em) {
+        padding: 3rem 5rem 5rem;
+    }
+    
+    @media only screen and (min-width: 38em) {
+        padding: 3rem 8rem 6rem;
+    }
+    
+    h3 {
+        color: $white;
+        margin-top: none;
+    }
+    
+    p {
+        max-width: 26rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.overlay-2-col {
+    @media only screen and (min-width: 60em) {
+        padding: 3rem 10rem 5rem;
+    }
+    
+    @media only screen and (min-width: 80em) {
+        padding: 3rem 20rem 5rem;
+    }
+}
+
+.overlay-aboutus {
+    background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg);
+}
