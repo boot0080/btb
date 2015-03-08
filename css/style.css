@@ -1513,7 +1513,7 @@ body {
 
 /* line 36, /Users/Daniela/Desktop/btb/scss/components/typography */
 .orange {
-  color: #ff4f37; }
+  color: #f26522; }
 
 /* line 40, /Users/Daniela/Desktop/btb/scss/components/typography */
 .hovercolor {
@@ -1603,7 +1603,7 @@ small, .font_small {
 
 /* line 100, /Users/Daniela/Desktop/btb/scss/components/typography */
 main h2 {
-  color: #ff4f37; }
+  color: #f26522; }
 
 /* line 104, /Users/Daniela/Desktop/btb/scss/components/typography */
 .italic {
@@ -1657,14 +1657,14 @@ ul {
 /* line 150, /Users/Daniela/Desktop/btb/scss/components/typography */
 main p a {
   text-decoration: none;
-  color: #ff4f37;
-  border-bottom: 1px solid #ff4f37; }
+  color: #f26522;
+  border-bottom: 1px solid #f26522; }
 
 /* line 156, /Users/Daniela/Desktop/btb/scss/components/typography */
 .linkreset {
   text-decoration: none;
-  color: #ff4f37;
-  border-bottom: 1px solid #ff4f37; }
+  color: #f26522;
+  border-bottom: 1px solid #f26522; }
 
 /* line 160, /Users/Daniela/Desktop/btb/scss/components/typography */
 .decor-subtitle {
@@ -1828,8 +1828,8 @@ main p a {
   position: absolute;
   top: 0;
   left: 0;
-  background: #ff4f37 url('../images/nav-icon.svg') no-repeat center center;
-  background: #ff4f37 url('../images/nav-icon.svg') no-repeat center center; }
+  background: #f26522 url('../images/nav-icon.svg') no-repeat center center;
+  background: #f26522 url('../images/nav-icon.svg') no-repeat center center; }
 
 /* line 25, /Users/Daniela/Desktop/btb/scss/components/nav */
 .nav-btn:hover, .nav-btn:focus, .nav-btn:active {
@@ -1974,7 +1974,7 @@ header {
 
   /* line 176, /Users/Daniela/Desktop/btb/scss/components/nav */
   .nav-list .current i {
-    background-color: #ff4f37; }
+    background-color: #f26522; }
  }
 
 /* Top Nav Styles */
@@ -2010,7 +2010,7 @@ header {
   transition: all 200ms cubic-bezier(0.69, 0.34, 0.56, 0.96); }
   /* line 214, /Users/Daniela/Desktop/btb/scss/components/nav */
   .socialmedia li i:hover {
-    color: #ff4f37;
+    color: #f26522;
     opacity: 1; }
 
 /* Homepage Nav Animation */
@@ -2190,8 +2190,8 @@ header {
   /* line 76, /Users/Daniela/Desktop/btb/scss/components/toptabs */
   .right-top a {
     text-decoration: none;
-    color: #ff4f37;
-    border-bottom: 1px solid #ff4f37;
+    color: #f26522;
+    border-bottom: 1px solid #f26522;
     margin: 0;
     padding: 0;
     border-bottom: none;
@@ -2227,7 +2227,7 @@ header {
   position: absolute;
   bottom: -2rem;
   right: 0.75rem;
-  background-color: #ff4f37;
+  background-color: #f26522;
   text-align: center;
   color: #fff;
   padding-top: 5px;
@@ -2333,7 +2333,7 @@ footer {
     transition: color 200ms linear; }
     /* line 58, /Users/Daniela/Desktop/btb/scss/components/tabs */
     .tabs nav a:hover {
-      color: #ff4f37; }
+      color: #f26522; }
     @media only screen and (min-width: 60em) {
       .tabs nav a {
         padding: 0 0.5em; } }
@@ -2354,7 +2354,7 @@ footer {
 
 /* line 80, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav li.tab-current a {
-  color: #ff4f37; }
+  color: #f26522; }
 
 /* line 84, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav a:before {
@@ -2511,8 +2511,8 @@ main {
   z-index: 2;
   text-decoration: none;
   text-align: center;
-  color: #ff4f37;
-  border: solid 2px #ff4f37;
+  color: #f26522;
+  border: solid 2px #f26522;
   background-color: transparent;
   position: relative;
   overflow: hidden;
@@ -2530,7 +2530,7 @@ main {
     height: 0;
     top: 50%;
     left: 50%;
-    background: #ff4f37;
+    background: #f26522;
     opacity: 0;
     -webkit-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -2775,7 +2775,7 @@ main hr {
   .hiddencap figure figcaption {
     margin: 0;
     padding: 0;
-    background-color: #ff4f37;
+    background-color: #f26522;
     border-radius: 560px;
     position: absolute;
     top: 1.5rem;
@@ -2838,8 +2838,8 @@ main hr {
   /* line 186, /Users/Daniela/Desktop/btb/scss/components/main */
   .blogpost a {
     text-decoration: none;
-    color: #ff4f37;
-    border-bottom: 1px solid #ff4f37;
+    color: #f26522;
+    border-bottom: 1px solid #f26522;
     display: inline-block;
     margin-top: 0.75rem; }
 
@@ -2875,8 +2875,8 @@ main hr {
     z-index: 2;
     text-decoration: none;
     text-align: center;
-    color: #ff4f37;
-    border: solid 2px #ff4f37;
+    color: #f26522;
+    border: solid 2px #f26522;
     background-color: transparent;
     position: relative;
     overflow: hidden;
@@ -2895,7 +2895,7 @@ main hr {
       height: 0;
       top: 50%;
       left: 50%;
-      background: #ff4f37;
+      background: #f26522;
       opacity: 0;
       -webkit-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
@@ -2933,8 +2933,8 @@ main hr {
     z-index: 2;
     text-decoration: none;
     text-align: center;
-    color: #ff4f37;
-    border: solid 2px #ff4f37;
+    color: #f26522;
+    border: solid 2px #f26522;
     background-color: transparent;
     position: relative;
     overflow: hidden;
@@ -2953,7 +2953,7 @@ main hr {
       height: 0;
       top: 50%;
       left: 50%;
-      background: #ff4f37;
+      background: #f26522;
       opacity: 0;
       -webkit-transform: translateX(-50%) translateY(-50%);
       -ms-transform: translateX(-50%) translateY(-50%);
@@ -2973,9 +2973,9 @@ main hr {
     .blog-nav a:active:after {
       height: 110%;
       opacity: 1; }
-  /* line 230, /Users/Daniela/Desktop/btb/scss/components/main */
-  .blog-nav .shorter {
-    min-width: 3rem; }
+    /* line 226, /Users/Daniela/Desktop/btb/scss/components/main */
+    .blog-nav a {
+      min-width: 3rem; }
 
 /* line 1, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .herobanner {
@@ -3003,7 +3003,7 @@ main hr {
     font-family: 'Open Sans', sans-serif; }
   /* line 23, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .herobanner .p_large {
-    color: #ff4f37; }
+    color: #f26522; }
   @media only screen and (min-width: 38rem) {
     .herobanner h1 {
       font-size: 6rem; } }
@@ -3046,7 +3046,7 @@ main hr {
   display: none; }
 /* line 67, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .hm-herobanner .social a:hover i {
-  color: #ff4f37; }
+  color: #f26522; }
 /* line 70, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .hm-herobanner .arrow {
   color: #fff;
@@ -3065,7 +3065,7 @@ main hr {
 /* Buttons in herobanner */
 /* line 90, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homenavtop .button-white:hover {
-  color: #ff4f37; }
+  color: #f26522; }
 /* line 91, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homenavtop .button-white {
   margin: 0.5rem 5px 0;
@@ -3118,7 +3118,7 @@ main hr {
   margin-bottom: 1rem; }
 /* line 145, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost h1 {
-  color: #ff4f37;
+  color: #f26522;
   font-size: 2em;
   line-height: 1.15;
   font-family: 'Open Sans', sans-serif;
