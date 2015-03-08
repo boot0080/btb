@@ -86,8 +86,7 @@
 /* Buttons in herobanner */
 
 .homenavtop {
-    .button-white {
-        &:hover{color: $orange;}
+    .button-orange {
         & {
             margin: .5rem 5px 0;
             min-width: 8rem;
