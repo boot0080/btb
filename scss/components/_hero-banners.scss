@@ -22,8 +22,8 @@
             font-size: 6rem;
         }
         @media only screen and (min-width: 60rem) {
-            overflow: visible;
-            margin-left: 2.5625rem;
+            //overflow: visible;
+            //margin-left: 2.5625rem;
         }
     }
     p {
@@ -167,14 +167,28 @@
     background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
 }
 
-@media only screen and (min-width: 38em) {
-    .newspost {
-        h1 {
-            padding: 0 15rem;
-            color: $orange;
-        }
-        p {
-            max-width: 40rem;
-        }
+
+.newspost {
+    .decor-subtitle {
+        color: $white;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        color: $orange; 
+        font-size: 2em;
+        line-height: 1.15;
+        font-family: $opensans;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+        max-width: 45rem;
+        margin: 0 auto;
+    }
+    .intro-p {
+        font-weight: 400;
+    }
+    
+    @media only screen and (min-width: 38em) {
+        p { max-width: 40rem; }
     }
 }

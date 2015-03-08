@@ -35,6 +35,13 @@ main {
         //padding: 3rem 20% 10rem 27.5%;
         padding: 3rem 20% 6rem;
     }
+    .button {
+        max-width: 17rem;
+    }
+}
+
+.no-pad-bottom {
+    padding-bottom: .25rem;
 }
 
 .overlay {
@@ -123,11 +130,16 @@ main hr {
     @media only screen and (min-width: 60em) {
         width: 25rem;
     }
-    //font-weight: 400;
+    font-weight: 400;
 }
 
 .news .subscribe input {
     @include input($white, 2rem auto 1rem);
+    font-weight: 400;
+    @media only screen and (min-width: 60em) {
+        &{max-width: 35rem;}
+    }
+    opacity: .4;
 }
 
 .placeholder{
@@ -172,11 +184,13 @@ main hr {
 }
 
 .blogpost {
+    max-width: 40rem;
+    margin: 0 auto;
     .top {
         width: 100%;
-        margin-bottom: .75rem;
+        margin-bottom: .875rem;
         margin-top: 4rem;
-        padding-top: 1rem;
+        padding-top: 1.25rem;
         position: relative;
         text-align: left;
     }
@@ -184,6 +198,7 @@ main hr {
         font-family: $opensans;
         text-align: left;
         font-weight: 600;
+        line-height: 1.1;
         letter-spacing: 0;
         margin-top: .75rem;
     }
@@ -200,6 +215,16 @@ main hr {
     }
 }
 
+.singleblogpost {
+    p {
+        text-align: left;
+    }
+    img {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
 .blogpost .top:before {
     content: '';
     position: absolute;
@@ -208,4 +233,22 @@ main hr {
     background-color: $dark;
     left: 0;
     width: 52px;
+}
+
+.pagination {
+    a {
+        @include button($orange, 0 10px);
+        font-size: .85rem;
+    }
+    -webkit-transform: translateX(-13px);
+    transform: translateX(-13px);
+}
+
+.blog-nav {
+    a {
+        @include button($orange, 0 10px);
+        font-size: .85rem;
+    }
+    -webkit-transform: translateX(-13px);
+    transform: translateX(-13px);
 }

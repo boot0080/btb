@@ -34,14 +34,16 @@
 .left-top {
     p {
         @include zero;
+        text-align: left;
         @media only screen and (min-width: 38em) {
-            padding: .65rem 2rem 0 0;
+            text-align: center;
+            padding: .65rem 5rem 0 0;
         }
-        @media only screen and (min-width: 60rem) {
-            padding: .65rem 3rem 0 6rem;
+        @media only screen and (min-width: 60em) {
+            padding: .65rem 5rem 0 8rem;
         }
-        @media only screen and (min-width: 70rem) {
-            padding: .65rem 3rem 0 12rem;
+        @media only screen and (min-width: 72em) {
+            padding: .65rem 5rem 0 14rem;
         }
     }
 }
@@ -60,6 +62,7 @@
         font-weight: 600;
         font-size: .7rem;
         display: block;
+        text-align: left;
         margin: 0.5rem 0;
         @include transitionlinear(150ms);
         @media only screen and (min-width: 38em) {
@@ -83,7 +86,7 @@
     text-decoration: none;
     display: block;
     height: 2rem;
-    z-index: 9999;
+    z-index: 5000;
     width: 5rem;
     position: absolute;
     bottom: -2rem;
