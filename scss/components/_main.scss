@@ -251,4 +251,7 @@ main hr {
     }
     -webkit-transform: translateX(-13px);
     transform: translateX(-13px);
+    .shorter {
+        min-width: 3rem;
+    }
 }
