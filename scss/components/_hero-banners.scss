@@ -8,6 +8,9 @@
     background-position: center center;
     color: $white;
     padding: 3rem 0;
+    @media only screen and (min-width: 38em) {
+        padding: 5rem;
+    }
     h1, p {
         @include zero;
     }
@@ -46,6 +49,9 @@
     .socialist {
         margin-left: 0px;
         margin-top: 10px;
+        @media only screen and (min-width: 38rem) {
+            margin-top: 20px;
+        }
     }
     .social i {
         color: $white;
@@ -76,6 +82,87 @@
         animation: bounce 1250ms ease;
     }
 }
+
+/* Buttons in herobanner */
+
+.homenavtop {
+    .button-white {
+        &:hover{color: $orange;}
+        & {
+            margin: .5rem 5px 0;
+            min-width: 8rem;
+            @media only screen and (min-width: 38em) {
+                margin: 2.25rem 10px 0;
+                min-width: 9rem;
+            }
+        }
+    }
+    .button-1 {
+        margin-top: 1.5rem;
+        @media only screen and (min-width: 38em) {
+            margin-top: 2.25rem;
+        }
+    }
+}
+
+/* Background Images and Invididual Banner Styles*/
+
+.homepage {
+    min-height: 100vh;
+    padding-top: 5rem;
+    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+    @media only screen and (min-width: 80em) {
+        padding-top: 7rem;
+    }
+}
+
+.intro-image {
+    width: 90%;
+    max-width: 42rem;
+}
+
+.aboutus {
+    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+}
+
+.whydothis {
+    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+}
+
+.helpout {
+    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+}
+
+.news {
+    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
+}
+
+.newspost {
+    .decor-subtitle {
+        color: $white;
+        margin-bottom: 1rem;
+    }
+    h1 {
+        color: $orange; 
+        font-size: 2em;
+        line-height: 1.15;
+        font-family: $opensans;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+        max-width: 45rem;
+        margin: 0 auto;
+    }
+    .intro-p {
+        font-weight: 400;
+    }
+    
+    @media only screen and (min-width: 38em) {
+        p { max-width: 40rem; }
+    }
+}
+
+/* Bounce Animation */
 
 @-webkit-keyframes bounce {
     0%, 20%, 53%, 80%, 100% {
@@ -125,93 +212,4 @@
     -webkit-transform: translate3d(0,-4px,0);
             transform: translate3d(0,-4px,0);
   }
-}
-
-@media only screen and (min-width: 38em) {
-    .herobanner {
-        padding: 5rem;
-        .socialist {
-            margin-top: 20px;
-        }
-    }
-    
-    .homepage {
-        padding-top: 9rem;
-    }
-}
-
-/* Background Images */
-
-.homepage {
-    min-height: 100vh;
-    padding-top: 5rem;
-    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
-}
-
-.intro-image {
-    width: 90%;
-    max-width: 42rem;
-}
-
-.aboutus {
-    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
-}
-
-.whydothis {
-    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
-}
-
-.helpout {
-    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
-}
-
-.news {
-    background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg);
-}
-
-
-.newspost {
-    .decor-subtitle {
-        color: $white;
-        margin-bottom: 1rem;
-    }
-    h1 {
-        color: $orange; 
-        font-size: 2em;
-        line-height: 1.15;
-        font-family: $opensans;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-weight: 600;
-        max-width: 45rem;
-        margin: 0 auto;
-    }
-    .intro-p {
-        font-weight: 400;
-    }
-    
-    @media only screen and (min-width: 38em) {
-        p { max-width: 40rem; }
-    }
-}
-
-.homenavtop {
-    .button-white {
-        &:hover{color: $orange;}
-        & {
-            margin: .5rem 5px 0;
-            min-width: 8rem;
-            @media only screen and (min-width: 38em) {
-                margin: 2.25rem 10px 0;
-                min-width: 9rem;
-            }
-        }
-    }
-    .button-1 {
-        margin-top: 1.5rem;
-        @media only screen and (min-width: 38em) {
-            margin-top: 2.25rem;
-        }
-    }
-
 }
