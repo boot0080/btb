@@ -178,10 +178,10 @@ main hr {
         margin-top: .75rem;
     }
     h2 a {
-        @include linkreset($body);
+        @include linkreset($hovercolor);
         @include transitionlinear(250ms);
         &{border-bottom: none;}
-        &:hover {color: $hovercolor;}
+        &:hover {color: $body;}
     }
     a {
         @include linkreset($orange);
