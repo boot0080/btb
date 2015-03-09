@@ -64,7 +64,7 @@ h4, .cuatro {font-size: 1.25em;}
 
 .p_large {letter-spacing: -0.018em;}
 
-p, main ul  {font-size: 0.95em; margin-top: 1.3em;}
+p, .main ul  {font-size: 0.95em; margin-top: 1.3em;}
 
 small, .font_small {font-size: 0.667em;}
 
@@ -84,7 +84,7 @@ small, .font_small {font-size: 0.667em;}
 
     .p_small {font-size: 0.96em;}
     
-    p, main ul  {font-size: 1.05em}
+    p, .main ul  {font-size: 1.05em}
 
     small, .font_small {font-size: 0.867em;}
 }
@@ -99,7 +99,7 @@ small, .font_small {font-size: 0.667em;}
     border-bottom: 1px solid $body;
 }
 
-main h2 {
+.main h2 {
     color: $orange;
 }
 
@@ -149,7 +149,7 @@ ul {
     margin-bottom: 0rem;
 }
 
-main p a {
+.main p a {
     text-decoration: none;
     color: $orange;
     border-bottom: 1px solid $orange;

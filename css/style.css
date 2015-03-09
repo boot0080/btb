@@ -1553,7 +1553,7 @@ h4, .cuatro {
   letter-spacing: -0.018em; }
 
 /* line 67, /Users/Daniela/Desktop/btb/scss/components/typography */
-p, main ul {
+p, .main ul {
   font-size: 0.95em;
   margin-top: 1.3em; }
 
@@ -1587,7 +1587,7 @@ small, .font_small {
     font-size: 0.96em; }
 
   /* line 87, /Users/Daniela/Desktop/btb/scss/components/typography */
-  p, main ul {
+  p, .main ul {
     font-size: 1.05em; }
 
   /* line 89, /Users/Daniela/Desktop/btb/scss/components/typography */
@@ -1606,7 +1606,7 @@ small, .font_small {
   border-bottom: 1px solid #716a65; }
 
 /* line 102, /Users/Daniela/Desktop/btb/scss/components/typography */
-main h2 {
+.main h2 {
   color: #f26522; }
 
 /* line 106, /Users/Daniela/Desktop/btb/scss/components/typography */
@@ -1659,7 +1659,7 @@ ul {
   margin-bottom: 0rem; }
 
 /* line 152, /Users/Daniela/Desktop/btb/scss/components/typography */
-main p a {
+.main p a {
   text-decoration: none;
   color: #f26522;
   border-bottom: 1px solid #f26522; }
@@ -2486,14 +2486,14 @@ body, html {
   clear: both; }
 
 /* line 31, /Users/Daniela/Desktop/btb/scss/components/main */
-main {
+.main {
   padding: 3rem 5%;
   overflow-x: hidden; }
   @media only screen and (min-width: 60em) {
-    main {
+    .main {
       padding: 3rem 20% 6rem; } }
   /* line 38, /Users/Daniela/Desktop/btb/scss/components/main */
-  main .button {
+  .main .button {
     max-width: 17rem; }
 
 /* line 43, /Users/Daniela/Desktop/btb/scss/components/main */
@@ -2667,7 +2667,7 @@ main {
     color: #324a71; }
 
 /* line 78, /Users/Daniela/Desktop/btb/scss/components/main */
-main hr {
+.main hr {
   border: 0;
   height: 0;
   border-top: none;
