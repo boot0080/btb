@@ -4,4 +4,4 @@ var $areaTrigger = $('.area-trigger');
 
 $areaTrigger.waypoint(function() {
 	$navTop.addClass('js-navtop-fade');
-}, { offset:'10%' });
+}, { offset:'-5%' });
