@@ -41,9 +41,24 @@
 }
 
 .overlay-homepage {
+    padding: 0;
     background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg);
+    padding: 3rem 0 4rem;
     @media only screen and (min-width: 38em) {
         padding: 5rem 8rem 8rem;
+    }
+    
+    .button-group {
+        max-width: 40rem;
+        margin: 0 auto;
+        text-align: center;
+        .button-orange {
+            &{margin: 1rem 10px 0;}
+            min-width: 13rem;
+            @media only screen and (min-width: 38em) {
+                max-width: 15rem;
+            }
+        }
     }
 }
 
