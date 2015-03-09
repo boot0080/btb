@@ -13,7 +13,7 @@
     }
     
     @media only screen and (min-width: 38em) {
-        padding: 3rem 8rem 6rem;
+        padding: 5rem 8rem;
     }
     
     h3 {
@@ -43,6 +43,9 @@
 
 .overlay-homepage {
     background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg);
+    @media only screen and (min-width: 38em) {
+        padding: 5rem 8rem 8rem;
+    }
 }
 
 .overlay-aboutus {
