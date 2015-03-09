@@ -3370,14 +3370,13 @@ body, html {
       padding: 5rem 8rem; } }
   /* line 19, /Users/Daniela/Desktop/btb/scss/components/overlays */
   .overlay h3 {
-    color: #fff;
-    margin-top: none; }
-  /* line 24, /Users/Daniela/Desktop/btb/scss/components/overlays */
+    color: #fff; }
+  /* line 23, /Users/Daniela/Desktop/btb/scss/components/overlays */
   .overlay p {
     max-width: 26rem;
     margin-left: auto;
     margin-right: auto; }
-  /* line 29, /Users/Daniela/Desktop/btb/scss/components/overlays */
+  /* line 28, /Users/Daniela/Desktop/btb/scss/components/overlays */
   .overlay .button-orange {
     max-width: 17rem; }
 
@@ -3388,17 +3387,17 @@ body, html {
   .overlay-2-col {
     padding: 3rem 20rem 5rem; } }
 
-/* line 44, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 43, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-homepage {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg); }
   @media only screen and (min-width: 38em) {
     .overlay-homepage {
       padding: 5rem 8rem 8rem; } }
 
-/* line 51, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 50, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-aboutus {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
 
-/* line 55, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 54, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-whydothis, .overlay-helpout {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-whydothis.jpg); }
