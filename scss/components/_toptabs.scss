@@ -6,10 +6,42 @@
 
 .js-navtop-fade {
 	-webkit-animation: navtop-fade 400ms linear forwards;
+    -moz-animation: navtop-fade 400ms linear forwards;
+    -ms-animation: navtop-fade 400ms linear forwards;
     animation: navtop-fade 400ms linear forwards;
 }
 
 @-webkit-keyframes navtop-fade {
+	0% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes navtop-fade {
+	0% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
+}
+
+@-ms-keyframes navtop-fade {
+	0% {
+		opacity: 0;
+	}
+	
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes navtop-fade {
 	0% {
 		opacity: 0;
 	}
@@ -25,9 +57,9 @@
     top:0;
     left: 0;
     right: 0;
-    z-index: 999999999;
-    @media only screen and (min-width: 38em) {
-        z-index: 6000;
+    @media only screen and (min-width: 60em) {
+        width: calc(100%-5rem);
+        left: 5rem;
     }
 }
 
@@ -96,6 +128,8 @@
 #donate-tab[data-state="expanded"], #volunteer-tab[data-state="expanded"]{
     margin-top:0;
     box-shadow: 0px 2px 10px rgba(15, 21, 30, .2);
+    position: relative;
+    z-index: 6000;
 }
 
 .donate-btn, .volunteer-btn {
@@ -105,7 +139,7 @@
     text-decoration: none;
     display: block;
     height: 2rem;
-    z-index: 5000;
+    z-index: 999999;
     width: 5rem;
     position: absolute;
     bottom: -2rem;
@@ -119,8 +153,8 @@
     @media only screen and (min-width: 38em) {
         width: 8rem;
     }
-    @media only screen and (min-width: 75em) {
-        right: 2rem;
+    @media only screen and (min-width: 60em) {
+        right: 7rem;
     }
 }
 
@@ -136,7 +170,7 @@
     @media only screen and (min-width: 38em) {
         right: 9rem;
     }
-    @media only screen and (min-width: 75em) {
-        right: 11rem;
+    @media only screen and (min-width: 60em) {
+        right: 16rem;
     }
 }
