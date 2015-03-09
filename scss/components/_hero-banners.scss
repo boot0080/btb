@@ -104,6 +104,26 @@
     }
 }
 
+.helpout {
+    .button-white {
+        & {
+            margin: .5rem 5px 0;
+            min-width: 8rem;
+            @media only screen and (min-width: 38em) {
+                margin: 2.25rem 10px 0;
+                min-width: 9rem;
+            }
+        }
+        &:hover {color: $orange}
+    }
+    .button-1 {
+        margin-top: 1.5rem;
+        @media only screen and (min-width: 38em) {
+            margin-top: 2.25rem;
+        }
+    }
+}
+
 /* Background Images and Invididual Banner Styles*/
 
 .homepage {
