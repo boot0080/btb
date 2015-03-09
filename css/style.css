@@ -3236,18 +3236,19 @@ body, html {
   color: #fff;
   font-size: 0.875rem;
   -webkit-animation: bounce 1250ms ease-in;
+  -ms-animation: bounce 1250ms ease-in;
+  animation: bounce 1250ms ease-in;
   -webkit-animation-delay: 1s;
-  -webkit-animation: bounce 1250ms ease-in;
-          animation: bounce 1250ms ease-in;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s; }
-/* line 80, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  -ms-animation-delay: 1s;
+  animation-delay: 1s; }
+/* line 88, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .hm-herobanner .arrow:focus i, .hm-herobanner .arrow:hover i, .hm-herobanner .arrow:active i {
   -webkit-animation: bounce 1250ms ease;
+  -ms-animation: bounce 1250ms ease;
   animation: bounce 1250ms ease; }
 
 /* Buttons in herobanner */
-/* line 90, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 101, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homenavtop .button-orange {
   margin: 0.5rem 5px 0;
   min-width: 8rem; }
@@ -3255,14 +3256,14 @@ body, html {
     .homenavtop .button-orange {
       margin: 2.25rem 10px 0;
       min-width: 9rem; } }
-/* line 99, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 110, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homenavtop .button-1 {
   margin-top: 1.5rem; }
   @media only screen and (min-width: 38em) {
     .homenavtop .button-1 {
       margin-top: 2.25rem; } }
 
-/* line 109, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 120, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout .button-white {
   margin: 0.5rem 5px 0;
   min-width: 8rem; }
@@ -3270,10 +3271,10 @@ body, html {
     .helpout .button-white {
       margin: 2.25rem 10px 0;
       min-width: 9rem; } }
-/* line 117, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 128, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout .button-white:hover {
   color: #f26522; }
-/* line 119, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 130, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout .button-1 {
   margin-top: 1.5rem; }
   @media only screen and (min-width: 38em) {
@@ -3281,7 +3282,7 @@ body, html {
       margin-top: 2.25rem; } }
 
 /* Background Images and Invididual Banner Styles*/
-/* line 129, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 140, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homepage {
   min-height: 100vh;
   padding-top: 5rem;
@@ -3290,32 +3291,32 @@ body, html {
     .homepage {
       padding-top: 7rem; } }
 
-/* line 138, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 149, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .intro-image {
   width: 90%;
   max-width: 42rem; }
 
-/* line 143, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 154, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .aboutus {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 147, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 158, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .whydothis {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 151, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 162, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 155, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 166, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .news {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 160, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 171, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost .decor-subtitle {
   color: #fff;
   margin-bottom: 1rem; }
-/* line 164, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 175, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost h1 {
   color: #f26522;
   font-size: 2em;
@@ -3326,75 +3327,91 @@ body, html {
   font-weight: 600;
   max-width: 45rem;
   margin: 0 auto; }
-/* line 175, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 186, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost .intro-p {
   font-weight: 400; }
 @media only screen and (min-width: 38em) {
-  /* line 180, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 191, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost p {
     max-width: 40rem; }
  }
 
-/* line 184, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 195, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-1 {
   background-image: url(http://ariahboots.ca/btb/images/blog-1-top.jpg); }
 
-/* line 188, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 199, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-2 {
   background-image: url(http://ariahboots.ca/btb/images/blog-2-top.jpg); }
 
-/* line 192, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 203, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-3 {
   background-image: url(http://ariahboots.ca/btb/images/blog-3-top.jpg); }
 
 /* Bounce Animation */
 @-webkit-keyframes bounce {
-  /* line 199, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 210, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
-    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0); }
 
-  /* line 205, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 214, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
-    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0); }
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0); }
 
-  /* line 211, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 218, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
-    transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
-    -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0); }
+    -webkit-transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0); }
 
-  /* line 217, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 222, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
-    -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0); } }
+    -webkit-transform: translate3d(0, -4px, 0); } }
+
+@-ms-keyframes bounce {
+  /* line 246, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  0%, 20%, 53%, 80%, 100% {
+    -ms-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -ms-transform: translate3d(0, 0, 0); }
+
+  /* line 250, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  40%, 43% {
+    -ms-transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -ms-transform: translate3d(0, -30px, 0); }
+
+  /* line 254, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  70% {
+    -ms-transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -ms-transform: translate3d(0, -15px, 0); }
+
+  /* line 258, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  90% {
+    -ms-transform: translate3d(0, -4px, 0); } }
 
 @keyframes bounce {
-  /* line 224, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 264, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0); }
+            transform: translate3d(0, 0, 0); }
 
-  /* line 230, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 268, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
-    transform: translate3d(0, -30px, 0); }
+            transform: translate3d(0, -30px, 0); }
 
-  /* line 236, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 272, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
-    transform: translate3d(0, -15px, 0); }
+            transform: translate3d(0, -15px, 0); }
 
-  /* line 242, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 276, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
-    transform: translate3d(0, -4px, 0); } }
+            transform: translate3d(0, -4px, 0); } }
 
 /* line 1, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay {
