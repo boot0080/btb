@@ -2290,17 +2290,28 @@ footer {
     .mediabox {
       padding: 5.5rem 10%; } }
   /* line 13, /Users/Daniela/Desktop/btb/scss/components/tabs */
-  .mediabox h3 {
-    margin-top: 0; }
-  /* line 16, /Users/Daniela/Desktop/btb/scss/components/tabs */
-  .mediabox p {
+  .mediabox p, .mediabox ul, .mediabox h3, .mediabox h4 {
     margin: 0 auto;
     max-width: 26rem; }
     @media only screen and (min-width: 25rem) {
-      .mediabox p {
+      .mediabox p, .mediabox ul, .mediabox h3, .mediabox h4 {
         max-width: 32rem; } }
+  /* line 20, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  .mediabox p, .mediabox ul {
+    margin-top: 1rem; }
+  /* line 23, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  .mediabox h4 {
+    margin-top: 2rem;
+    line-height: 1.2; }
+  /* line 27, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  .mediabox ul li {
+    margin-left: 1rem;
+    margin-top: 0.5rem; }
+  /* line 32, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  .mediabox .see-more p, .mediabox .see-more-1 p, .mediabox .see-more-2 p, .mediabox .see-more-3 p {
+    margin-top: 1rem; }
 
-/* line 25, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 38, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs {
   width: 100%;
   overflow: hidden;
@@ -2308,23 +2319,23 @@ footer {
   z-index: 1; }
 
 /* Tab Nav */
-/* line 34, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 47, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav {
   text-align: center; }
-  /* line 36, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  /* line 49, /Users/Daniela/Desktop/btb/scss/components/tabs */
   .tabs nav ul {
     padding: 0;
     margin: 0;
     list-style: none;
     display: inline-block; }
-    /* line 41, /Users/Daniela/Desktop/btb/scss/components/tabs */
+    /* line 54, /Users/Daniela/Desktop/btb/scss/components/tabs */
     .tabs nav ul li {
       border: 2px solid #716a65;
       border-bottom: none;
       margin: 0 0.25em;
       display: block;
       float: left; }
-  /* line 49, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  /* line 62, /Users/Daniela/Desktop/btb/scss/components/tabs */
   .tabs nav a {
     color: #716a65;
     display: block;
@@ -2334,7 +2345,7 @@ footer {
     white-space: nowrap;
     text-decoration: none;
     transition: color 200ms linear; }
-    /* line 58, /Users/Daniela/Desktop/btb/scss/components/tabs */
+    /* line 71, /Users/Daniela/Desktop/btb/scss/components/tabs */
     .tabs nav a:hover {
       color: #f26522; }
     @media only screen and (min-width: 60em) {
@@ -2344,22 +2355,22 @@ footer {
       .tabs nav a {
         padding: 0 1.25em; } }
 
-/* line 69, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 82, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav li.tab-current {
   border: 2px solid #716a65;
   border-bottom: none; }
 
-/* line 74, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 87, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav li.tab-current:after {
   right: auto;
   left: 100%;
   width: 4000px; }
 
-/* line 80, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 93, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav li.tab-current a {
   color: #f26522; }
 
-/* line 84, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 97, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav a:before {
   display: inline-block;
   vertical-align: middle;
@@ -2376,51 +2387,51 @@ footer {
       display: none; } }
 
 /* Tab Content */
-/* line 101, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 114, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .content section {
   display: none;
   margin: 0 auto; }
 
-/* line 107, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 120, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .content section:before, .content section:after {
   content: '';
   display: table; }
 
-/* line 112, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 125, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .content section:after {
   clear: both; }
 
 /* Tab Fallback  */
-/* line 117, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 130, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .no-js .content section {
   display: block;
   padding-bottom: 2em;
   border-bottom: 1px solid #716a65; }
 
-/* line 123, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 136, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .content section.content-current {
   display: block; }
 
 /* Tab media queries */
 @media only screen and (max-width: 52.375em) {
-  /* line 130, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  /* line 143, /Users/Daniela/Desktop/btb/scss/components/tabs */
   .tabs nav a span {
     display: none; }
 
-  /* line 134, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  /* line 147, /Users/Daniela/Desktop/btb/scss/components/tabs */
   .tabs nav a:before {
     margin-right: 0; }
  }
 
 @media only screen and (max-width: 32em) {
-  /* line 142, /Users/Daniela/Desktop/btb/scss/components/tabs */
+  /* line 155, /Users/Daniela/Desktop/btb/scss/components/tabs */
   .tabs-more nav ul li {
     width: 16.666%;
     width: calc(16.666% + 1px);
     margin: 0 0 0 -2px; }
  }
 
-/* line 150, /Users/Daniela/Desktop/btb/scss/components/tabs */
+/* line 163, /Users/Daniela/Desktop/btb/scss/components/tabs */
 .tabs nav a span {
   font-size: 1rem; }
 
@@ -2980,6 +2991,56 @@ main hr {
     .blog-nav a {
       min-width: 3rem; }
 
+/* Toggle See More*/
+/* line 237, /Users/Daniela/Desktop/btb/scss/components/main */
+.see-more, .see-more-2, .see-more-3 {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 200ms linear; }
+
+/* line 244, /Users/Daniela/Desktop/btb/scss/components/main */
+.see-more[data-state="expanded"], .see-more-2[data-state="expanded"], .see-more-3[data-state="expanded"] {
+  opacity: 1;
+  max-height: 100rem;
+  overflow: auto; }
+  /* line 248, /Users/Daniela/Desktop/btb/scss/components/main */
+  .see-more[data-state="expanded"] .see-more-btn:after, .see-more-2[data-state="expanded"] .see-more-btn:after, .see-more-3[data-state="expanded"] .see-more-btn:after {
+    text-indent: -2rem; }
+
+/* line 253, /Users/Daniela/Desktop/btb/scss/components/main */
+.see-more-btn, .see-more-btn-2, .see-more-btn-3 {
+  display: block;
+  position: relative;
+  width: 2rem;
+  margin: 1rem auto 0;
+  color: #f26522;
+  text-decoration: none;
+  font-size: 2rem; }
+
+/* line 263, /Users/Daniela/Desktop/btb/scss/components/main */
+.see-more-btn:after, .see-more-btn-2:after, .see-more-btn-3:after {
+  content: 'SEE MORE';
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  display: block;
+  text-indent: 0;
+  text-align: center;
+  position: absolute;
+  top: 38px;
+  letter-spacing: 1px;
+  left: -42px;
+  font-weight: 600;
+  width: 6rem;
+  height: 1rem; }
+
+/* line 280, /Users/Daniela/Desktop/btb/scss/components/main */
+.event .date {
+  margin-top: -1px; }
+/* line 283, /Users/Daniela/Desktop/btb/scss/components/main */
+.event .description {
+  margin-top: 0.5rem; }
+
 /* line 1, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .herobanner {
   width: 100%;
@@ -3081,8 +3142,26 @@ main hr {
     .homenavtop .button-1 {
       margin-top: 2.25rem; } }
 
-/* Background Images and Invididual Banner Styles*/
 /* line 109, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+.helpout .button-white {
+  margin: 0.5rem 5px 0;
+  min-width: 8rem; }
+  @media only screen and (min-width: 38em) {
+    .helpout .button-white {
+      margin: 2.25rem 10px 0;
+      min-width: 9rem; } }
+/* line 117, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+.helpout .button-white:hover {
+  color: #f26522; }
+/* line 119, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+.helpout .button-1 {
+  margin-top: 1.5rem; }
+  @media only screen and (min-width: 38em) {
+    .helpout .button-1 {
+      margin-top: 2.25rem; } }
+
+/* Background Images and Invididual Banner Styles*/
+/* line 129, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .homepage {
   min-height: 100vh;
   padding-top: 5rem;
@@ -3091,32 +3170,32 @@ main hr {
     .homepage {
       padding-top: 7rem; } }
 
-/* line 118, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 138, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .intro-image {
   width: 90%;
   max-width: 42rem; }
 
-/* line 123, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 143, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .aboutus {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 127, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 147, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .whydothis {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 131, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 151, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .helpout {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 135, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 155, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .news {
   background-image: url(http://ariahboots.ca/btb/images/hero-bg.jpg); }
 
-/* line 140, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 160, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost .decor-subtitle {
   color: #fff;
   margin-bottom: 1rem; }
-/* line 144, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 164, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost h1 {
   color: #f26522;
   font-size: 2em;
@@ -3127,72 +3206,72 @@ main hr {
   font-weight: 600;
   max-width: 45rem;
   margin: 0 auto; }
-/* line 155, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 175, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost .intro-p {
   font-weight: 400; }
 @media only screen and (min-width: 38em) {
-  /* line 160, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 180, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   .newspost p {
     max-width: 40rem; }
  }
 
-/* line 164, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 184, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-1 {
   background-image: url(http://ariahboots.ca/btb/images/blog-1-top.jpg); }
 
-/* line 168, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 188, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-2 {
   background-image: url(http://ariahboots.ca/btb/images/blog-2-top.jpg); }
 
-/* line 172, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+/* line 192, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
 .newspost-3 {
   background-image: url(http://ariahboots.ca/btb/images/blog-3-top.jpg); }
 
 /* Bounce Animation */
 @-webkit-keyframes bounce {
-  /* line 179, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 199, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 185, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 205, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 191, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 211, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 197, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 217, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
 
 @keyframes bounce {
-  /* line 204, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 224, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   0%, 20%, 53%, 80%, 100% {
     transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); }
 
-  /* line 210, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 230, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   40%, 43% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -30px, 0);
     transform: translate3d(0, -30px, 0); }
 
-  /* line 216, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 236, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   70% {
     transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
     -webkit-transform: translate3d(0, -15px, 0);
     transform: translate3d(0, -15px, 0); }
 
-  /* line 222, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
+  /* line 242, /Users/Daniela/Desktop/btb/scss/components/hero-banners */
   90% {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0); } }
@@ -3221,6 +3300,9 @@ main hr {
     max-width: 26rem;
     margin-left: auto;
     margin-right: auto; }
+  /* line 29, /Users/Daniela/Desktop/btb/scss/components/overlays */
+  .overlay .button-orange {
+    max-width: 17rem; }
 
 @media only screen and (min-width: 60em) {
   .overlay-2-col {
@@ -3229,14 +3311,14 @@ main hr {
   .overlay-2-col {
     padding: 3rem 20rem 5rem; } }
 
-/* line 41, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 44, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-homepage {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-homepage.jpg); }
 
-/* line 45, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 48, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-aboutus {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-aboutus.jpg); }
 
-/* line 49, /Users/Daniela/Desktop/btb/scss/components/overlays */
+/* line 52, /Users/Daniela/Desktop/btb/scss/components/overlays */
 .overlay-whydothis, .overlay-helpout {
   background-image: url(http://ariahboots.ca/btb/images/btb-overlay-whydothis.jpg); }

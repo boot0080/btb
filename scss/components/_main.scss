@@ -229,3 +229,58 @@ main hr {
     -webkit-transform: translateX(-13px);
     transform: translateX(-13px);
 }
+
+
+
+/* Toggle See More*/
+
+.see-more, .see-more-2, .see-more-3 {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 200ms linear; 
+}
+
+.see-more[data-state="expanded"], .see-more-2[data-state="expanded"], .see-more-3[data-state="expanded"] {
+    opacity: 1;
+    max-height: 100rem;
+    overflow: auto;
+    .see-more-btn:after {
+        text-indent: -2rem;
+    }
+}
+
+.see-more-btn, .see-more-btn-2, .see-more-btn-3 {
+    display: block;
+    position: relative;
+    width: 2rem;
+    margin: 1rem auto 0;
+    color: $orange;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.see-more-btn:after, .see-more-btn-2:after, .see-more-btn-3:after {
+    content: 'SEE MORE';
+    font-family: $opensans;
+    font-size: .875rem;
+    display: block;
+    text-indent: 0;
+    text-align: center;
+    position: absolute;
+    top:38px;
+    letter-spacing: 1px;
+    left: -42px;
+    font-weight: 600;
+    width: 6rem;
+    height: 1rem;
+}
+
+.event {
+    .date {
+        margin-top: -1px;
+    }
+    .description {
+        margin-top: .5rem;
+    }
+}
