@@ -10,14 +10,27 @@
     @media only screen and (min-width: 80rem) {
         padding: 5.5rem 10%;
     }
-    h3 {
-        margin-top: 0;
-    }
-    p {
+    p, ul, h3, h4 {
         margin: 0 auto;
         max-width: 26rem;
         @media only screen and (min-width: 25rem) {
             max-width: 32rem;
+        }
+    }
+    p, ul {
+        margin-top: 1rem;
+    }
+    h4 {
+        margin-top: 2rem;
+        line-height: 1.2;
+    }
+    ul li {
+        margin-left: 1rem;
+        margin-top: .5rem;
+    }
+    .see-more, .see-more-1, .see-more-2, .see-more-3 {
+        p {
+            margin-top: 1rem;
         }
     }
 }
