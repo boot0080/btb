@@ -1448,18 +1448,18 @@
   display: inline-block; }
 
 /* line 1458, /Users/Daniela/Desktop/btb/scss/components/grid */
-.push-top {
-  margin-top: 2rem; }
-
-/* line 1462, /Users/Daniela/Desktop/btb/scss/components/grid */
-.push-top-2 {
-  margin-top: 4rem; }
-
-/* line 1466, /Users/Daniela/Desktop/btb/scss/components/grid */
 .flex-img {
   display: block;
   margin: 0 auto;
   width: 100%; }
+
+/* line 1464, /Users/Daniela/Desktop/btb/scss/components/grid */
+.push-top {
+  margin-top: 2rem; }
+
+/* line 1468, /Users/Daniela/Desktop/btb/scss/components/grid */
+.push-top-2 {
+  margin-top: 4rem; }
 
 /* line 1472, /Users/Daniela/Desktop/btb/scss/components/grid */
 .small-show {
@@ -1549,49 +1549,53 @@ h4, .cuatro {
   font-size: 1.05em; }
 
 /* line 65, /Users/Daniela/Desktop/btb/scss/components/typography */
+.p_large {
+  letter-spacing: -0.018em; }
+
+/* line 67, /Users/Daniela/Desktop/btb/scss/components/typography */
 p, main ul {
   font-size: 0.95em;
   margin-top: 1.3em; }
 
-/* line 67, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 69, /Users/Daniela/Desktop/btb/scss/components/typography */
 small, .font_small {
   font-size: 0.667em; }
 
 @media only screen and (min-width: 38em) {
-  /* line 71, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 73, /Users/Daniela/Desktop/btb/scss/components/typography */
   h1, .uno {
     font-size: 5.063em; }
 
-  /* line 75, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 77, /Users/Daniela/Desktop/btb/scss/components/typography */
   h2, .dos {
     font-size: 3.375em; }
 
-  /* line 77, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 79, /Users/Daniela/Desktop/btb/scss/components/typography */
   h3, .tres {
     font-size: 2.25em; }
 
-  /* line 79, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 81, /Users/Daniela/Desktop/btb/scss/components/typography */
   h4, .cuatro {
     font-size: 1.5em; }
 
-  /* line 81, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 83, /Users/Daniela/Desktop/btb/scss/components/typography */
   .p_large, .pull_quote {
     font-size: 1.35em; }
 
-  /* line 83, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 85, /Users/Daniela/Desktop/btb/scss/components/typography */
   .p_small {
     font-size: 0.96em; }
 
-  /* line 85, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 87, /Users/Daniela/Desktop/btb/scss/components/typography */
   p, main ul {
     font-size: 1.05em; }
 
-  /* line 87, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 89, /Users/Daniela/Desktop/btb/scss/components/typography */
   small, .font_small {
     font-size: 0.867em; }
  }
 
-/* line 90, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 92, /Users/Daniela/Desktop/btb/scss/components/typography */
 .pull_quote {
   text-align: center;
   width: 90%;
@@ -1601,72 +1605,72 @@ small, .font_small {
   border-top: 1px solid #716a65;
   border-bottom: 1px solid #716a65; }
 
-/* line 100, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 102, /Users/Daniela/Desktop/btb/scss/components/typography */
 main h2 {
   color: #f26522; }
 
-/* line 104, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 106, /Users/Daniela/Desktop/btb/scss/components/typography */
 .italic {
   font-style: italic; }
 
-/* line 108, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 110, /Users/Daniela/Desktop/btb/scss/components/typography */
 .blue {
   color: #324a71; }
 
-/* line 112, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 114, /Users/Daniela/Desktop/btb/scss/components/typography */
 img + .caption {
   text-align: right; }
 
-/* line 114, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 116, /Users/Daniela/Desktop/btb/scss/components/typography */
 ul {
   margin-left: 1.05rem; }
 
-/* line 118, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 120, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-margin {
   margin: 0;
   padding: 0; }
 
-/* line 122, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 124, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-margin-top {
   margin-top: 0; }
 
-/* line 126, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 128, /Users/Daniela/Desktop/btb/scss/components/typography */
 .half-margin-top {
   margin-top: 1.2rem; }
 
-/* line 130, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 132, /Users/Daniela/Desktop/btb/scss/components/typography */
 .center-align {
   text-align: center; }
 
-/* line 134, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 136, /Users/Daniela/Desktop/btb/scss/components/typography */
 .left-align {
   text-align: left; }
 
-/* line 138, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 140, /Users/Daniela/Desktop/btb/scss/components/typography */
 .no-style {
   text-decoration: none; }
 
-/* line 142, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 144, /Users/Daniela/Desktop/btb/scss/components/typography */
 .text-list li {
   margin: 1rem 0; }
 
-/* line 146, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 148, /Users/Daniela/Desktop/btb/scss/components/typography */
 .text-list li:last-child {
   margin-bottom: 0rem; }
 
-/* line 150, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 152, /Users/Daniela/Desktop/btb/scss/components/typography */
 main p a {
   text-decoration: none;
   color: #f26522;
   border-bottom: 1px solid #f26522; }
 
-/* line 156, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 158, /Users/Daniela/Desktop/btb/scss/components/typography */
 .linkreset {
   text-decoration: none;
   color: #f26522;
   border-bottom: 1px solid #f26522; }
 
-/* line 160, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 162, /Users/Daniela/Desktop/btb/scss/components/typography */
 .decor-subtitle {
   display: block;
   text-align: center;
@@ -1677,7 +1681,7 @@ main p a {
   letter-spacing: 4px;
   margin-bottom: 2rem; }
 
-/* line 171, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 173, /Users/Daniela/Desktop/btb/scss/components/typography */
 .pretty-list {
   max-width: 26rem;
   margin: 3rem auto;
@@ -1690,11 +1694,11 @@ main p a {
   /* line 185, /Users/Daniela/Desktop/btb/scss/mixins */
   .pretty-list li:first-child {
     border-top: 1px solid #fff; }
-  /* line 173, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 175, /Users/Daniela/Desktop/btb/scss/components/typography */
   .pretty-list {
     text-align: center; }
 
-/* line 176, /Users/Daniela/Desktop/btb/scss/components/typography */
+/* line 178, /Users/Daniela/Desktop/btb/scss/components/typography */
 .pretty-list-body {
   max-width: 26rem;
   margin: 3rem auto;
@@ -1707,7 +1711,7 @@ main p a {
   /* line 185, /Users/Daniela/Desktop/btb/scss/mixins */
   .pretty-list-body li:first-child {
     border-top: 1px solid #716a65; }
-  /* line 178, /Users/Daniela/Desktop/btb/scss/components/typography */
+  /* line 180, /Users/Daniela/Desktop/btb/scss/components/typography */
   .pretty-list-body {
     margin: 2rem auto;
     max-width: 32rem;
@@ -2491,7 +2495,7 @@ main {
 
 /* line 51, /Users/Daniela/Desktop/btb/scss/components/main */
 .contain-width {
-  max-width: 43rem;
+  max-width: 38rem;
   margin-left: auto;
   margin-right: auto; }
 
